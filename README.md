@@ -15,7 +15,7 @@ to a diagnosis or abstains. Policies are trained with GiGPO / GRPO on Qwen3-VL-8
 ```
 data/
   sft/     SFT trajectories, 8 parquet shards, images embedded
-  rl/      train.parquet, val.parquet (val_split = A | B), profiles.parquet
+  rl/      train.parquet, val.parquet, profiles.parquet
   test/    test.parquet, 2,500 cases
 src/
   environment.py    consultation environment and rollout runner
@@ -25,7 +25,6 @@ src/
   outcomes.py       outcome reward backfill
   curriculum.py     2D ScalingInter curriculum controller
   sft_export.py     trajectories -> SFT pairs
-  analyze_ab.py     compare two arms from their trajectory records
   judge/            LLM judge panel, ontology check, verdict fusion
   trainer/          verl-agent patches, curriculum sampler, env package
   tools/            offline advantage simulator, rollout probe
