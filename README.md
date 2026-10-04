@@ -1,8 +1,8 @@
 # TrustMed-RL
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/Lyra-stellAI/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Images-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face"></a>
-  <a href="https://huggingface.co/datasets/Lyra-stellAI/trustmed-medical-retrieval-2026-07"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Retrieval%20corpus-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face"></a>
+  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Images-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face"></a>
+  <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Retrieval%20corpus-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face"></a>
 </p>
 
 Code and data for TrustMed-RL. The environment turns an open-access case report into a multi-turn
