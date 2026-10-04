@@ -45,7 +45,7 @@ export TRUSTMED_IMAGES_DIR=images/figures TRUSTMED_PANEL_DIR=images/panels
 
 ## Retrieval corpus
 
-Search runs against a local index, not the live NCBI API. The corpus (PubMed title and abstract records,
+Search runs against a local index, given the live NCBI API rate limiting issue. The corpus (PubMed title and abstract records,
 NLM 2026 baseline with daily updates through 2026-07-30, plus medical Wikipedia) and its BM25 and FAISS
-indexes are on Hugging Face (badge above). StatPearls and the MedQA textbooks are used under research-only
-terms and are not included; the dataset card says how to rebuild them.
+indexes are stored on Hugging Face (badge above). StatPearls and the MedQA textbooks are used under research-only
+terms and are not included; the dataset card provides instruction on how to rebuild them.
