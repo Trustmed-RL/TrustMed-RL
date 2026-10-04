@@ -1,0 +1,8235 @@
+{
+ "dcm|BMD": {
+  "display": "Bone Mineral Densitometry",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|CR": {
+  "display": "Computed Radiography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|CT": {
+  "display": "Computed Tomography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|ES": {
+  "display": "Endoscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|GM": {
+  "display": "General Microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|IVUS": {
+  "display": "Intravascular Ultrasound",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|MG": {
+  "display": "Mammography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|MR": {
+  "display": "Magnetic Resonance",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|NM": {
+  "display": "Nuclear Medicine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|OP": {
+  "display": "Ophthalmic photography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|OPT": {
+  "display": "Ophthalmic Tomography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|OT": {
+  "display": "Other Modality",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|PT": {
+  "display": "Positron emission tomography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|PX": {
+  "display": "Panoramic X-Ray",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|RF": {
+  "display": "Radiofluoroscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|US": {
+  "display": "Ultrasound",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|XA": {
+  "display": "X-Ray Angiography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "dcm|XC": {
+  "display": "External-camera Photography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "inactive": false
+  }
+ },
+ "loinc|102086-6": {
+  "display": "Endometrial stromal tumor in Tissue Document by FISH",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP433805-1",
+   "METHOD_TYP": "LP62864-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|103648-2": {
+  "display": "Follitropin [Units/volume] in Serum or Plasma --4 hours post dose gonadotropin releasing hormone",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7784-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP437287-8",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "U/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP387133-4"
+  }
+ },
+ "loinc|104071-6": {
+  "display": "Cystoscopy study Document",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP438068-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6967-6",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|10443-0": {
+  "display": "CD43 T-cell monocyte+myeloid cell Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7783-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP37566-4",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10476-0": {
+  "display": "Desmin Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP37924-5",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10510-6": {
+  "display": "S-100 Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39645-4",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10514-8": {
+  "display": "Synaptophysin Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39943-3",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|106062-3": {
+  "display": "Enteric pathogen panel - Stool by NAA with probe detection",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442458-8",
+   "METHOD_TYP": "LP6464-4",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7604-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|106787-5": {
+  "display": "Acetylcholine receptor Ab [Presence] in Serum by Immunoassay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL7009-5",
+   "CLASS": "LP7844-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP36947-7",
+   "METHOD_TYP": "LP217197-5",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10701-1": {
+  "display": "Ova and parasites identified in Stool by Concentration",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14833-5",
+   "METHOD_TYP": "LP6194-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7604-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP442162-6"
+  }
+ },
+ "loinc|107159-6": {
+  "display": "Chromosome analysis in Blood by Microarray",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP111376-2",
+   "METHOD_TYP": "LP250859-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|107286-7": {
+  "display": "Homologous recombination deficiency status analysis [Presence] in Tissue by Molecular genetics method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP443568-3",
+   "METHOD_TYP": "LP6404-0",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6875-1",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP448393-1"
+  }
+ },
+ "loinc|107602-5": {
+  "display": "Microscopic observation [Identifier] in Aspirate by Acid fast stain.Kinyoun modified",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL7115-0",
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6096-4",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7037-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP443030-4"
+  }
+ },
+ "loinc|10782-1": {
+  "display": "Microscopic observation [Identifier] in Tissue by Congo red stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6202-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10796-1": {
+  "display": "Microscopic observation [Identifier] in Tissue by Mucicarmine stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6407-3",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|10798-7": {
+  "display": "Microscopic observation [Identifier] in Tissue by Oil red O stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6427-1",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|108998-6": {
+  "display": "Neutrophil cytoplasmic IgG Ab [Measurement] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39204-0",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|109075-2": {
+  "display": "C peptide [Measurement] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15454-9",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|110083-3": {
+  "display": "U1 small nuclear ribonucleoprotein 70kD Ab [Measurement] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP69894-1",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|110116-1": {
+  "display": "Tissue transglutaminase IgA Ab [Measurement] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP40011-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|110826-5": {
+  "display": "HLA Ab [Measurement] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP38481-5",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|111022-0": {
+  "display": "Mitochondria M2 Ab [Measurement] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP448291-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39023-4",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP447904-6",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP70420-2",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|111744-9": {
+  "display": "Breastfeeding assessment scale LATCH",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP94654-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP449225-4",
+   "METHOD_TYP": "LP449221-3",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|111841-3": {
+  "display": "Family history of malignant tumor",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL7318-0",
+   "CLASS": "LP7796-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP449284-1",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|111882-7": {
+  "display": "Total exposure time ERCP",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7796-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP449264-3",
+   "EXAMPLE_UCUM_UNITS": "min",
+   "EXAMPLE_UNITS": "min",
+   "METHOD_TYP": "LP6257-2",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6879-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|112114-4": {
+  "display": "Skin yeast IgE Ab [Units/volume] in Serum or Plasma by Immunoassay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7756-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP449649-5",
+   "EXAMPLE_UCUM_UNITS": "[arb'U]/mL",
+   "EXAMPLE_UNITS": "kUA/L",
+   "METHOD_TYP": "LP217197-5",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|11415-7": {
+  "display": "Physical findings of Wrist Narrative",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7749-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7733-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11421-5": {
+  "display": "Physical findings of Cardiovascular system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7118-5",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11431-4": {
+  "display": "Physical findings of Genitalia",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7264-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11441-3": {
+  "display": "Physical findings of Musculoskeletal system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7435-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11442-1": {
+  "display": "Physical findings of Neck",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7440-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11443-9": {
+  "display": "Physical findings of Respiratory system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7556-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11448-8": {
+  "display": "Physical findings of Hematologic and Lymphatic and Immunologic System",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30040-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11523-8": {
+  "display": "EEG study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP201883-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP310471-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11524-6": {
+  "display": "EKG study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP200320-2",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431696-6",
+   "METHOD_TYP": "LP6244-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7289-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|11572-5": {
+  "display": "Rheumatoid factor [Units/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7844-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP16738-4",
+   "EXAMPLE_UCUM_UNITS": "[IU]/mL",
+   "EXAMPLE_UNITS": "IU/mL;units/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP403920-4"
+  }
+ },
+ "loinc|13361-1": {
+  "display": "Semen analysis panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP36844-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP29110-1",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7589-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP401026-2"
+  }
+ },
+ "loinc|13896-6": {
+  "display": "Insulin-like growth factor-I [Units/volume] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15669-2",
+   "EXAMPLE_UCUM_UNITS": "[IU]/mL",
+   "EXAMPLE_UNITS": "arb U/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381496-1"
+  }
+ },
+ "loinc|13980-8": {
+  "display": "Albumin/Protein.total in Serum or Plasma by Electrophoresis",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP307329-5",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "METHOD_TYP": "LP6247-3",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6831-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP384485-1"
+  }
+ },
+ "loinc|14804-9": {
+  "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15033-1",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "arb U/L",
+   "METHOD_TYP": "LP6479-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6789-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP383084-3"
+  }
+ },
+ "loinc|14831-2": {
+  "display": "Metanephrine/Creatinine [Molar ratio] in Urine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP286506-3",
+   "EXAMPLE_UCUM_UNITS": "mmol/mol{creat}",
+   "EXAMPLE_UNITS": "mmol/mol creatinine",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6868-6",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381250-2"
+  }
+ },
+ "loinc|14979-9": {
+  "display": "aPTT in Platelet poor plasma by Coagulation assay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7788-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP19284-6",
+   "EXAMPLE_UCUM_UNITS": "s",
+   "EXAMPLE_UNITS": "s",
+   "METHOD_TYP": "LP449064-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6879-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|15067-2": {
+  "display": "Follitropin [Units/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14499-5",
+   "EXAMPLE_UCUM_UNITS": "m[IU]/mL",
+   "EXAMPLE_UNITS": "IU/L;mIU/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381364-1"
+  }
+ },
+ "loinc|1751-7": {
+  "display": "Albumin [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP6118-6",
+   "EXAMPLE_UCUM_UNITS": "g/dL",
+   "EXAMPLE_UNITS": "g/L;g/dL; mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP384485-1"
+  }
+ },
+ "loinc|17849-1": {
+  "display": "Reticulocytes/Erythrocytes in Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP445533-5",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6838-9",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP392535-3"
+  }
+ },
+ "loinc|17861-6": {
+  "display": "Calcium [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15257-6",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385966-9"
+  }
+ },
+ "loinc|1798-8": {
+  "display": "Amylase [Enzymatic activity/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15355-8",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "arb U/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6789-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP382784-9"
+  }
+ },
+ "loinc|18305-3": {
+  "display": "Amoeba identified in Aspirate by Iron hematoxylin stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL2284-9",
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14804-6",
+   "METHOD_TYP": "LP6349-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7037-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP444577-3"
+  }
+ },
+ "loinc|1834-1": {
+  "display": "Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14331-0",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ug/L;ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP384631-0"
+  }
+ },
+ "loinc|18723-7": {
+  "display": "Hematology studies (set)",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7761-2",
+   "CLASSTYPE": null,
+   "COMPONENT": "LP74091-7",
+   "PROPERTY": "LP6796-9",
+   "SCALE_TYP": "LP7754-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP70420-2",
+   "inactive": false,
+   "parent": "LP29695-1"
+  }
+ },
+ "loinc|18745-0": {
+  "display": "Cardiac catheterization study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP200320-2",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431611-5",
+   "METHOD_TYP": "LP6170-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7289-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|18750-0": {
+  "display": "Cardiac electrophysiology study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP200320-2",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431608-1",
+   "METHOD_TYP": "LP6252-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7289-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|19080-1": {
+  "display": "Choriogonadotropin [Units/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14651-1",
+   "EXAMPLE_UCUM_UNITS": "m[IU]/mL",
+   "EXAMPLE_UNITS": "mIU/mL; mU/mL; Thous mIU/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381421-9"
+  }
+ },
+ "loinc|19765-7": {
+  "display": "Microscopic observation [Identifier] in Cervical or vaginal smear or scraping by Cyto stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7789-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6213-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7163-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|1988-5": {
+  "display": "C reactive protein [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15023-2",
+   "EXAMPLE_UCUM_UNITS": "mg/L",
+   "EXAMPLE_UNITS": "mg/L;mcg/mL; mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP384546-0"
+  }
+ },
+ "loinc|1989-3": {
+  "display": "25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15455-6",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385191-4"
+  }
+ },
+ "loinc|1992-7": {
+  "display": "Calcitonin [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14649-5",
+   "EXAMPLE_UCUM_UNITS": "ng/L",
+   "EXAMPLE_UNITS": "ng/L;pg/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381195-9"
+  }
+ },
+ "loinc|2000-8": {
+  "display": "Calcium [Moles/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15257-6",
+   "EXAMPLE_UCUM_UNITS": "mmol/L",
+   "EXAMPLE_UNITS": "mmol/L;mEq/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6860-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385966-9"
+  }
+ },
+ "loinc|2039-6": {
+  "display": "Carcinoembryonic Ag [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP28643-2",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ug/L;ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|20438-8": {
+  "display": "Glucose [Mass/volume] in Serum or Plasma --1 hour post dose glucose",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP234174-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP305893-2",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP416145-3"
+  }
+ },
+ "loinc|20868-6": {
+  "display": "Leptospira sp [Presence] in Tissue by Immunofluorescence",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14260-1",
+   "METHOD_TYP": "LP6323-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP375149-4"
+  }
+ },
+ "loinc|21028-6": {
+  "display": "Protein [Interpretation] in 24 hour Urine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15838-3",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6819-9",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6924-7",
+   "inactive": false,
+   "parent": "LP384472-9"
+  }
+ },
+ "loinc|2132-9": {
+  "display": "Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15505-8",
+   "EXAMPLE_UCUM_UNITS": "pg/mL",
+   "EXAMPLE_UNITS": "pg/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385133-6"
+  }
+ },
+ "loinc|2143-6": {
+  "display": "Cortisol [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14161-1",
+   "EXAMPLE_UCUM_UNITS": "ug/dL",
+   "EXAMPLE_UNITS": "ug/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381061-3"
+  }
+ },
+ "loinc|2157-6": {
+  "display": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15510-8",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "arb U/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6789-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP382927-4"
+  }
+ },
+ "loinc|2237-6": {
+  "display": "Erythropoietin (EPO) [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15554-6",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": true,
+   "parent": "LP384569-2"
+  }
+ },
+ "loinc|22568-0": {
+  "display": "Streptolysin O Ab [Titer] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39923-5",
+   "EXAMPLE_UCUM_UNITS": "{titer}",
+   "EXAMPLE_UNITS": "titer",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6881-9",
+   "SCALE_TYP": "LP436123-6",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|2276-4": {
+  "display": "Ferritin [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15568-6",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ug/L;ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385083-3"
+  }
+ },
+ "loinc|2345-7": {
+  "display": "Glucose [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14635-4",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385540-2"
+  }
+ },
+ "loinc|24108-3": {
+  "display": "Cancer Ag 19-9 [Units/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14040-7",
+   "EXAMPLE_UCUM_UNITS": "[arb'U];[arb'U]/mL",
+   "EXAMPLE_UNITS": "kIU/L;units/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386092-3"
+  }
+ },
+ "loinc|24313-9": {
+  "display": "Hepatitis 1996 panel - Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14253-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP379979-0"
+  }
+ },
+ "loinc|24318-8": {
+  "display": "Manual Differential panel - Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7833-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP96794-0",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": true,
+   "parent": "LP393933-9"
+  }
+ },
+ "loinc|24323-8": {
+  "display": "Comprehensive metabolic 2000 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14130-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386863-7"
+  }
+ },
+ "loinc|24324-6": {
+  "display": "Hepatic function 1996 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14131-4",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386947-8"
+  }
+ },
+ "loinc|24325-3": {
+  "display": "Hepatic function 2000 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14132-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386948-6"
+  }
+ },
+ "loinc|24326-1": {
+  "display": "Electrolytes 1998 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14133-0",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386893-4"
+  }
+ },
+ "loinc|24331-1": {
+  "display": "Lipid 1996 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14135-5",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386973-4"
+  }
+ },
+ "loinc|24336-0": {
+  "display": "Gas panel - Arterial blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14140-5",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7067-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386935-3"
+  }
+ },
+ "loinc|24348-5": {
+  "display": "Free T4 and TSH panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14144-7",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP386925-4"
+  }
+ },
+ "loinc|24356-8": {
+  "display": "Urinalysis complete panel - Urine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7838-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP96795-7",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP402546-8"
+  }
+ },
+ "loinc|24362-6": {
+  "display": "Renal function 2000 panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14156-1",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP387047-6"
+  }
+ },
+ "loinc|24363-4": {
+  "display": "Acute hepatitis 2000 panel - Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14157-9",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP379865-1"
+  }
+ },
+ "loinc|244-2": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "loinc|24419-4": {
+  "display": "Pathology report gross observation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7850-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP64619-7",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7593-9",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|2524-7": {
+  "display": "Lactate [Moles/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15686-6",
+   "EXAMPLE_UCUM_UNITS": "mmol/L",
+   "EXAMPLE_UNITS": "mmol/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6860-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385575-8"
+  }
+ },
+ "loinc|2532-0": {
+  "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15033-1",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "arb U/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6789-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": true,
+   "parent": "LP383084-3"
+  }
+ },
+ "loinc|26436-6": {
+  "display": "Laboratory studies (set)",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7761-2",
+   "CLASSTYPE": null,
+   "COMPONENT": "LP74124-6",
+   "PROPERTY": "LP6796-9",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7754-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP70420-2",
+   "inactive": false,
+   "parent": "LP29695-1"
+  }
+ },
+ "loinc|26881-3": {
+  "display": "Interleukin 6 [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP16474-6",
+   "EXAMPLE_UCUM_UNITS": "pg/mL",
+   "EXAMPLE_UNITS": "pg/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP385040-3"
+  }
+ },
+ "loinc|2731-8": {
+  "display": "Parathyrin.intact [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15778-1",
+   "EXAMPLE_UCUM_UNITS": "pg/mL",
+   "EXAMPLE_UNITS": "ng/L;pg/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381353-4"
+  }
+ },
+ "loinc|2742-5": {
+  "display": "Angiotensin converting enzyme [Enzymatic activity/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15387-1",
+   "EXAMPLE_UCUM_UNITS": "U/L",
+   "EXAMPLE_UNITS": "arb U/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6789-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP382827-6"
+  }
+ },
+ "loinc|28014-9": {
+  "display": "EGD Study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7796-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431586-9",
+   "METHOD_TYP": "LP6240-8",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP208394-9",
+   "TIME_ASPCT": "LP6967-6",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|2842-3": {
+  "display": "Prolactin [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14688-3",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ug/L;ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP381387-2"
+  }
+ },
+ "loinc|2857-1": {
+  "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP18193-0",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ug/L;ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|28629-4": {
+  "display": "Perimetry study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP74227-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "ValidHL7AttachmentRequest": "Y",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|28631-0": {
+  "display": "Visual acuity study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP74389-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|29005-6": {
+  "display": "Right eye Tear secretion 2 Schirmer test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP29676-1",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73492-8",
+   "EXAMPLE_UCUM_UNITS": "mm",
+   "EXAMPLE_UNITS": "mm",
+   "METHOD_TYP": "LP32270-8",
+   "PROPERTY": "LP6822-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7220-9",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP408642-9"
+  }
+ },
+ "loinc|29463-7": {
+  "display": "Body weight",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7774-5",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP65139-5",
+   "EXAMPLE_UCUM_UNITS": "[lb_av];kg",
+   "EXAMPLE_UNITS": "pounds;kilograms",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6826-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP415675-0"
+  }
+ },
+ "loinc|29770-5": {
+  "display": "Karyotype [Identifier] in Blood or Tissue Nominal",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP28493-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP401854-7"
+  }
+ },
+ "loinc|29892-7": {
+  "display": "Helicobacter pylori [Quantitative] in Stomach by urea breath test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP308271-8",
+   "EXAMPLE_UCUM_UNITS": "[arb'U]/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP7214-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": true,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|30428-7": {
+  "display": "MCV [Entitic mean volume] in Red Blood Cells",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "EXAMPLE_UCUM_UNITS": "fL",
+   "EXAMPLE_UNITS": "fL",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP443407-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7536-8",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|3084-1": {
+  "display": "Urate [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15935-7",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP383583-4"
+  }
+ },
+ "loinc|30894-0": {
+  "display": "Aldosterone/Renin [Ratio] in Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP307333-7",
+   "EXAMPLE_UCUM_UNITS": "{ratio}",
+   "EXAMPLE_UNITS": "ratio",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6852-0",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7479-1",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|31149-8": {
+  "display": "P53 protein Ag/cells in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP445512-9",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6838-9",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|3181-5": {
+  "display": "Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7788-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP37537-5",
+   "EXAMPLE_UCUM_UNITS": "[GPL'U]",
+   "EXAMPLE_UNITS": "GPL U",
+   "METHOD_TYP": "LP217197-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|32026-7": {
+  "display": "Microscopic observation [Identifier] in Nose by Gram stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6301-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7443-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP443060-1"
+  }
+ },
+ "loinc|32042-4": {
+  "display": "Thyroperoxidase Ab [Presence] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7844-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP40001-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|32422-8": {
+  "display": "Physical findings of Breast",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP29849-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32425-1": {
+  "display": "Physical findings of Cornea",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP32986-9",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32426-9": {
+  "display": "Physical findings of Nerves.cranial",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP212321-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32432-7": {
+  "display": "Physical findings of Face",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7223-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32437-6": {
+  "display": "Physical findings of Hearing",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30518-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32439-2": {
+  "display": "Physical findings of Intraoral",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30523-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32441-8": {
+  "display": "Physical findings of Joint",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30640-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32447-5": {
+  "display": "Physical findings of Liver",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7400-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32449-1": {
+  "display": "Physical findings of Lung",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL6223-3",
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7407-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32450-9": {
+  "display": "Physical findings of Lymph node",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30457-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32455-8": {
+  "display": "Physical findings of Muscle tone",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL3843-1",
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30531-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32456-6": {
+  "display": "Physical findings of Nail",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7438-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32463-2": {
+  "display": "Physical findings of Pharynx",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30540-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32466-5": {
+  "display": "Physical findings of Pupil",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30546-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32469-9": {
+  "display": "Physical findings of Scalp",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30549-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32476-4": {
+  "display": "Physical findings of Spine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7596-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32477-2": {
+  "display": "Physical findings of Spleen",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30311-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|32488-9": {
+  "display": "Physical findings of Vision",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30560-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|3255-7": {
+  "display": "Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7788-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14704-8",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "g/L;mg/dL",
+   "METHOD_TYP": "LP6186-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP394019-6"
+  }
+ },
+ "loinc|33055-5": {
+  "display": "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7783-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP39016-8",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|33452-4": {
+  "display": "Maximum expiratory gas flow Respiratory system airway",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7840-4",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP76210-1",
+   "EXAMPLE_UCUM_UNITS": "L/min",
+   "EXAMPLE_UNITS": "L/min",
+   "PROPERTY": "LP6895-9",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7558-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP408933-2"
+  }
+ },
+ "loinc|33717-0": {
+  "display": "Cervical AndOr vaginal cytology study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7831-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431614-9",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7163-1",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|33959-8": {
+  "display": "Procalcitonin [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31682-5",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP381196-7"
+  }
+ },
+ "loinc|34529-8": {
+  "display": "PT and aPTT panel - Platelet poor plasma by Coagulation assay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31893-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31910-0",
+   "METHOD_TYP": "LP6186-3",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP394457-8"
+  }
+ },
+ "loinc|34530-6": {
+  "display": "ABO and Rh group panel - Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31894-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31911-8",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP399315-3"
+  }
+ },
+ "loinc|34536-3": {
+  "display": "Fluid intake and output panel 24 hour",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31906-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP31918-3",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6924-7",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|34542-1": {
+  "display": "ACTH stimulation test using IV corticosteroids in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31895-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31925-8",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP387230-8"
+  }
+ },
+ "loinc|34550-4": {
+  "display": "Immunoglobulin panel [Mass/volume] - Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31933-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6827-2",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP386963-5"
+  }
+ },
+ "loinc|34552-0": {
+  "display": "Cardiac 2D echo panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31905-0",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP31935-7",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7289-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP431680-0"
+  }
+ },
+ "loinc|34557-9": {
+  "display": "Cell count and Differential panel - Body fluid",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7833-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP31940-7",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7238-1",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP393884-4"
+  }
+ },
+ "loinc|34565-2": {
+  "display": "Vital signs, weight and height panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31904-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP31941-5",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP415665-1"
+  }
+ },
+ "loinc|35507-3": {
+  "display": "Amino acids panel [Moles/volume] - Cerebral spinal fluid",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP33020-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6860-3",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7156-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP386807-4"
+  }
+ },
+ "loinc|39156-5": {
+  "display": "Body mass index (BMI) [Ratio]",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7774-5",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP35925-4",
+   "EXAMPLE_UCUM_UNITS": "kg/m2",
+   "EXAMPLE_UNITS": "kg/m2",
+   "PROPERTY": "LP6852-0",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP415677-6"
+  }
+ },
+ "loinc|39575-6": {
+  "display": "Fungus.microscopic observation [Identifier] in Specimen by Periodic acid-Schiff stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14867-3",
+   "METHOD_TYP": "LP6443-8",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP402085-7"
+  }
+ },
+ "loinc|40455-8": {
+  "display": "Ceruloplasmin actual/normal in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP174017-6",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "% normal",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6858-7",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP384552-8"
+  }
+ },
+ "loinc|40556-3": {
+  "display": "Estrogen receptor Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP38115-9",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7641-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP402009-7"
+  }
+ },
+ "loinc|42757-5": {
+  "display": "Troponin I.cardiac [Mass/volume] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14890-5",
+   "EXAMPLE_UCUM_UNITS": "ng/mL",
+   "EXAMPLE_UNITS": "ng/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP385941-2"
+  }
+ },
+ "loinc|44791-2": {
+  "display": "Menorrhagia coagulation panel - Platelet poor plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31893-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP36778-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP394448-7"
+  }
+ },
+ "loinc|4485-9": {
+  "display": "Complement C3 [Mass/volume] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP16359-9",
+   "EXAMPLE_UCUM_UNITS": "mg/dL",
+   "EXAMPLE_UNITS": "g/L;mg/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP393725-9"
+  }
+ },
+ "loinc|44906-6": {
+  "display": "Homovanillate panel - 24 hour Urine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7834-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP36803-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6924-7",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP386950-2"
+  }
+ },
+ "loinc|44963-7": {
+  "display": "Capillary refill [Time] of Nail bed",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP72221-2",
+   "EXAMPLE_UCUM_UNITS": "s",
+   "EXAMPLE_UNITS": "s",
+   "METHOD_TYP": "LP6425-5",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6879-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP35133-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|4537-7": {
+  "display": "Erythrocyte [Sedimentation Rate] in Blood by Westergren method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP16699-8",
+   "EXAMPLE_UCUM_UNITS": "mm/h",
+   "EXAMPLE_UNITS": "mm/h",
+   "METHOD_TYP": "LP6758-9",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP448341-0",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|4544-3": {
+  "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP446465-9",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "L/L;%",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6891-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|4548-4": {
+  "display": "Hemoglobin A1c/Hemoglobin.total in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP286151-8",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6831-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|46217-6": {
+  "display": "Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP265737-9",
+   "EXAMPLE_UCUM_UNITS": "[IU]/mL",
+   "EXAMPLE_UNITS": "IU/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP375468-8"
+  }
+ },
+ "loinc|47521-0": {
+  "display": "Cytology report of Breast fine needle aspirate Cyto stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7789-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP61728-9",
+   "METHOD_TYP": "LP6213-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7085-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP404343-8"
+  }
+ },
+ "loinc|47523-6": {
+  "display": "Cytology report of Body fluid Cyto stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7789-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP61728-9",
+   "METHOD_TYP": "LP6213-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7238-1",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP404341-2"
+  }
+ },
+ "loinc|48065-7": {
+  "display": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7788-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP15987-8",
+   "EXAMPLE_UCUM_UNITS": "ng{FEU}/mL;mg{FEU}/L",
+   "EXAMPLE_UNITS": "ug/L FEU",
+   "METHOD_TYP": "LP443413-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP394010-5"
+  }
+ },
+ "loinc|4821-5": {
+  "display": "HLA-B27 [Presence]",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7806-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP16560-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP401170-8"
+  }
+ },
+ "loinc|5048-4": {
+  "display": "Nuclear Ab [Titer] in Serum by Immunofluorescence",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7844-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP20752-9",
+   "EXAMPLE_UCUM_UNITS": "{titer}",
+   "EXAMPLE_UNITS": "titer",
+   "METHOD_TYP": "LP6323-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6881-9",
+   "SCALE_TYP": "LP436123-6",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|50971-1": {
+  "display": "Cytology report of Bronchial brush Cyto stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7789-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP61728-9",
+   "METHOD_TYP": "LP6213-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP36499-9",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP404344-6"
+  }
+ },
+ "loinc|51053-7": {
+  "display": "CD126 blasts [Units/volume] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7783-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP65913-3",
+   "EXAMPLE_UNITS": "Mean Fluorescent Intensity",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP399978-8"
+  }
+ },
+ "loinc|51393-7": {
+  "display": "Esophageal manometry study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7796-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431585-1",
+   "METHOD_TYP": "LP66084-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP29941-9",
+   "TIME_ASPCT": "LP6967-6",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|55419-6": {
+  "display": "Home drug screening panel - Urine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP29683-7",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP94658-9",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP392087-5"
+  }
+ },
+ "loinc|56844-4": {
+  "display": "Intraocular pressure of Eye",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP96294-1",
+   "EXAMPLE_UCUM_UNITS": "mm[Hg]",
+   "EXAMPLE_UNITS": "mm Hg",
+   "PROPERTY": "LP6847-0",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7218-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|57764-3": {
+  "display": "Microscopic exam [Interpretation] of Bone marrow by Cytology",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7789-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP18029-6",
+   "METHOD_TYP": "LP6216-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6819-9",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7410-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP404357-8"
+  }
+ },
+ "loinc|580-1": {
+  "display": "Fungus identified in Specimen by Culture",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14398-9",
+   "METHOD_TYP": "LP6209-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP376136-0"
+  }
+ },
+ "loinc|58410-2": {
+  "display": "CBC panel - Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7833-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP99237-7",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP393905-7"
+  }
+ },
+ "loinc|58477-1": {
+  "display": "Pulmonary function study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7840-4",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431617-2",
+   "METHOD_TYP": "LP99358-1",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|5902-2": {
+  "display": "Prothrombin time (PT)",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7788-5",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP19284-6",
+   "EXAMPLE_UCUM_UNITS": "s",
+   "EXAMPLE_UNITS": "s",
+   "METHOD_TYP": "LP449096-9",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6879-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7494-0",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|59408-5": {
+  "display": "Oxygen saturation in Arterial blood by Pulse oximetry",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7840-4",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP21258-6",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "METHOD_TYP": "LP6469-3",
+   "PROPERTY": "LP6831-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7067-4",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP409113-0"
+  }
+ },
+ "loinc|600-7": {
+  "display": "Bacteria identified in Blood by Culture",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14082-9",
+   "METHOD_TYP": "LP6209-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP442044-6"
+  }
+ },
+ "loinc|60568-3": {
+  "display": "Pathology synoptic report",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP101572-8",
+   "METHOD_TYP": "LP6437-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP402375-2"
+  }
+ },
+ "loinc|60985-9": {
+  "display": "Central venous pressure (CVP)",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7778-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP101975-3",
+   "EXAMPLE_UCUM_UNITS": "mm[Hg]",
+   "EXAMPLE_UNITS": "mm Hg",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6847-0",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP101976-1",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP415933-3"
+  }
+ },
+ "loinc|62821-4": {
+  "display": "PhenX - muscle strength protocol 150301",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP95319-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP112384-5",
+   "METHOD_TYP": "LP95333-8",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": true,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|630-4": {
+  "display": "Bacteria identified in Urine by Culture",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14082-9",
+   "METHOD_TYP": "LP6209-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7681-2",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP433186-6"
+  }
+ },
+ "loinc|6463-4": {
+  "display": "Bacteria identified in Specimen by Culture",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14082-9",
+   "METHOD_TYP": "LP6209-3",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP373683-4"
+  }
+ },
+ "loinc|6469-1": {
+  "display": "Microscopic observation [Identifier] in Stool by Trichrome stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6562-5",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7604-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP443076-7"
+  }
+ },
+ "loinc|6690-2": {
+  "display": "Leukocytes [#/volume] in Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14419-3",
+   "EXAMPLE_UCUM_UNITS": "10*3/uL",
+   "EXAMPLE_UNITS": "10*9/L",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6836-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP392599-9"
+  }
+ },
+ "loinc|670-0": {
+  "display": "Microscopic observation [Identifier] in Specimen by Methenamine silver nitrate stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP442509-8",
+   "METHOD_TYP": "LP6381-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6850-4",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP443085-8"
+  }
+ },
+ "loinc|70936-0": {
+  "display": "Vision testing Narrative",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP147336-4",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7749-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|718-7": {
+  "display": "Hemoglobin [Mass/volume] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14449-0",
+   "EXAMPLE_UCUM_UNITS": "g/dL",
+   "EXAMPLE_UNITS": "g/dL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6827-2",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP392452-1"
+  }
+ },
+ "loinc|72107-6": {
+  "display": "Mini-Mental State Examination [MMSE]",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP145936-3",
+   "CLASSTYPE": "4",
+   "COMPONENT": "LP156457-6",
+   "Copyright": "Copyright © Vicki King for Psychological Assessment Resources. Used with permission.",
+   "METHOD_TYP": "LP156471-7",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248772-8"
+  }
+ },
+ "loinc|72830-3": {
+  "display": "US.doppler Extremity arteries - bilateral for physiologic artery study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP29684-5",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP164002-0",
+   "METHOD_TYP": "LP6617-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP207760-2",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP405910-3",
+   "rad-anatomic-location-imaging-focus": "LP207759-4",
+   "rad-anatomic-location-laterality": "LP199951-7",
+   "rad-anatomic-location-laterality-presence": "LP199954-1",
+   "rad-anatomic-location-region-imaged": "LP199969-9",
+   "rad-modality-modality-subtype": "LP207609-1",
+   "rad-modality-modality-type": "LP207608-3",
+   "rad-reason-for-exam": "LP267224-6"
+  }
+ },
+ "loinc|72886-5": {
+  "display": "CYP2D6 gene and CYP2C19 gene targeted mutation analysis panel - Blood or Tissue by Molecular genetics method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP411304-1",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP164222-4",
+   "METHOD_TYP": "LP6404-0",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|7311-4": {
+  "display": "Fish IgE Ab [Units/volume] in Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7756-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP148291-0",
+   "EXAMPLE_UCUM_UNITS": "k[IU]/L",
+   "EXAMPLE_UNITS": "kIU/L",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "DISCOURAGED",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": true,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|73752-8": {
+  "display": "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL2467-0",
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP157521-8",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6819-9",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|74522-4": {
+  "display": "Complement lectin pathway actual/normal in Serum by Immunoassay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP228147-7",
+   "EXAMPLE_UCUM_UNITS": "%",
+   "EXAMPLE_UNITS": "%",
+   "METHOD_TYP": "LP217197-5",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP35077-4",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|74759-2": {
+  "display": "Yeast [Presence] in Specimen by Gram stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL1162-8",
+   "CLASS": "LP7819-8",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP29134-1",
+   "METHOD_TYP": "LP6301-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP376479-4"
+  }
+ },
+ "loinc|75192-5": {
+  "display": "Darkfield exam, DFA, or special stain was performed and test findings [CDC.CS]",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL2929-9",
+   "CLASS": "LP135481-2",
+   "CLASSTYPE": "4",
+   "COMPONENT": "LP183730-3",
+   "METHOD_TYP": "LP183705-5",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248772-8"
+  }
+ },
+ "loinc|75622-1": {
+  "display": "HIV 1 and 2 tests - Meaningful Use set",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP186041-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Convenience group",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP380010-1"
+  }
+ },
+ "loinc|77194-9": {
+  "display": "Ankle-brachial index",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7779-4",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP286281-3",
+   "EXAMPLE_UCUM_UNITS": "{ratio}",
+   "EXAMPLE_UNITS": "ratio",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6849-6",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7034-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|77199-8": {
+  "display": "Evoked potential study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7787-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP431613-1",
+   "METHOD_TYP": "LP189768-7",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7441-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|777-3": {
+  "display": "Platelets [#/volume] in Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14597-6",
+   "EXAMPLE_UCUM_UNITS": "10*3/uL",
+   "EXAMPLE_UNITS": "10*9/L",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6836-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP393218-5"
+  }
+ },
+ "loinc|78042-9": {
+  "display": "Vendor FISH product name [Identifier] in Blood or Tissue",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP199189-4",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6818-1",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP401674-9"
+  }
+ },
+ "loinc|789-8": {
+  "display": "Erythrocytes [#/volume] in Blood by Automated count",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7803-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14304-7",
+   "EXAMPLE_UCUM_UNITS": "10*6/uL",
+   "EXAMPLE_UNITS": "10*12/L",
+   "METHOD_TYP": "LP6141-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6836-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "Y",
+   "inactive": false,
+   "parent": "LP392503-1"
+  }
+ },
+ "loinc|79771-2": {
+  "display": "Overall study interpretation Right retina by EOG",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL3790-4",
+   "CLASS": "LP203647-5",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73420-9",
+   "METHOD_TYP": "LP200650-2",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6819-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30247-8",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP408452-3"
+  }
+ },
+ "loinc|79793-6": {
+  "display": "Overall study interpretation Left retina by ERG",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL3749-0",
+   "CLASS": "LP203648-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73420-9",
+   "METHOD_TYP": "LP190652-0",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6819-9",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30246-0",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP408457-2"
+  }
+ },
+ "loinc|8061-9": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "loinc|8302-2": {
+  "display": "Body height",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7768-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP64598-3",
+   "EXAMPLE_UCUM_UNITS": "[in_us];cm;m",
+   "EXAMPLE_UNITS": "inches; cm",
+   "PROPERTY": "LP6822-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP415671-9"
+  }
+ },
+ "loinc|8310-5": {
+  "display": "Body temperature",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7771-1",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP65487-8",
+   "EXAMPLE_UCUM_UNITS": "Cel",
+   "EXAMPLE_UNITS": "deg C",
+   "PROPERTY": "LP6872-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP416017-4"
+  }
+ },
+ "loinc|85354-9": {
+  "display": "Blood pressure panel with all children optional",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31904-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP248084-8",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7034-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|86205-2": {
+  "display": "Whole exome sequence analysis in Blood or Tissue by Molecular genetics method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP248469-1",
+   "METHOD_TYP": "LP6404-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP401675-6"
+  }
+ },
+ "loinc|8693-4": {
+  "display": "Mental status",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL6327-2",
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP72938-1",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8694-2": {
+  "display": "Physical findings of Abdomen",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP6990-8",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8697-5": {
+  "display": "Physical findings of Neurologic deep tendon reflexes",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30138-9",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8698-3": {
+  "display": "Physical findings of Ear",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7188-8",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8699-1": {
+  "display": "Physical findings of Eye",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7218-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8700-7": {
+  "display": "Physical findings of Genitourinary tract",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7268-8",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8701-5": {
+  "display": "Physical findings of Head",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7281-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8703-1": {
+  "display": "Physical findings of Extremities",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7216-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8704-9": {
+  "display": "Physical findings of Mouth and Throat and Teeth",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7434-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8705-6": {
+  "display": "Physical findings of Nervous system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL5973-4",
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7441-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8706-4": {
+  "display": "Physical findings of Nose",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7443-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8708-0": {
+  "display": "Physical findings of Rectum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7540-0",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8709-8": {
+  "display": "Physical findings of Skin",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL5027-9",
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP36760-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8712-2": {
+  "display": "Physical findings of Neurologic balance and Coordination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP30137-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8713-0": {
+  "display": "Physical findings of General status",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP73100-7",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP29998-9",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|8716-3": {
+  "display": "Vital signs note",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7801-6",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP448199-2",
+   "METHOD_TYP": "LP6425-5",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|87429-7": {
+  "display": "Cortisol AM and PM panel - Serum or Plasma",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP31895-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP262502-0",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7576-4",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP387234-0"
+  }
+ },
+ "loinc|87964-3": {
+  "display": "Respiratory pathogens panel - Bronchoalveolar lavage by Immunofluorescence",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP91458-7",
+   "METHOD_TYP": "LP6323-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Convenience group",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP36498-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP380086-1"
+  }
+ },
+ "loinc|88129-2": {
+  "display": "Respiratory pathogens panel - Throat by Immunofluorescence",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7835-4",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP91458-7",
+   "METHOD_TYP": "LP6323-2",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Convenience group",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7633-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP380088-7"
+  }
+ },
+ "loinc|882-1": {
+  "display": "ABO and Rh group [Type] in Blood",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL2972-9",
+   "CLASS": "LP7776-0",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP36683-8",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6886-8",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP399109-0"
+  }
+ },
+ "loinc|8867-4": {
+  "display": "Heart rate",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7807-3",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP72677-5",
+   "EXAMPLE_UCUM_UNITS": "{beats}/min;{counts}/min",
+   "EXAMPLE_UNITS": "{beats}/min",
+   "PROPERTY": "LP6839-7",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7735-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP415756-8"
+  }
+ },
+ "loinc|9279-1": {
+  "display": "Respiratory rate",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7841-2",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP72199-0",
+   "EXAMPLE_UCUM_UNITS": "{breaths}/min;{counts}/min",
+   "EXAMPLE_UNITS": "{breaths}/min",
+   "PROPERTY": "LP6839-7",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7556-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP416012-5"
+  }
+ },
+ "loinc|92895-2": {
+  "display": "Endocrinology studies",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP344933-9",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|93015-6": {
+  "display": "Gait and turn and tandem gait assessment",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL5339-8",
+   "CLASS": "LP201883-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP343919-9",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP185820-0",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|93906-6": {
+  "display": "ABO and Rh group [Type] in Blood--during infancy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL2972-9",
+   "CLASS": "LP7776-0",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP412082-2",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6886-8",
+   "SCALE_TYP": "LP7750-5",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP399109-0"
+  }
+ },
+ "loinc|95231-7": {
+  "display": "Chromosome aneuploidy details in Blood or Tissue by Molecular genetics method Narrative",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL1041-4",
+   "CLASS": "LP121011-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP418736-7",
+   "METHOD_TYP": "LP6404-0",
+   "ORDER_OBS": "Observation",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP7749-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7061-7",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|96185-4": {
+  "display": "Indoor respiratory allergen IgE panel - Serum",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP33267-3",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP421003-7",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7567-3",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|97158-0": {
+  "display": "Cytokeratin 8 Ag [Presence] in Tissue by Immune stain",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "AnswerList": "LL744-4",
+   "CLASS": "LP7839-6",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP427345-6",
+   "METHOD_TYP": "LP6333-1",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP217195-9",
+   "SCALE_TYP": "LP7751-3",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP61649-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248770-2"
+  }
+ },
+ "loinc|97750-4": {
+  "display": "Cancer Ag 19-9 [Units/volume] in Aspirate",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7786-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP14040-7",
+   "EXAMPLE_UCUM_UNITS": "[arb'U]/mL",
+   "EXAMPLE_UNITS": "arb U/mL",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6773-8",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7037-7",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP427057-7"
+  }
+ },
+ "loinc|97760-3": {
+  "display": "MLH1 gene methylation analysis in Blood by Molecular genetics method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7822-2",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP422925-0",
+   "METHOD_TYP": "LP6404-0",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7057-5",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP427437-1"
+  }
+ },
+ "loinc|9843-4": {
+  "display": "Head Occipital-frontal circumference",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7767-9",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP72254-3",
+   "EXAMPLE_UCUM_UNITS": "cm",
+   "EXAMPLE_UNITS": "cm",
+   "PROPERTY": "LP6822-3",
+   "SCALE_TYP": "LP7753-9",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP7281-1",
+   "TIME_ASPCT": "LP6960-1",
+   "inactive": false,
+   "parent": "LP415681-8"
+  }
+ },
+ "loinc|98480-7": {
+  "display": "Auditory brainstem response panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP94654-8",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP428340-6",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "TRIAL",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP428870-2"
+  }
+ },
+ "loinc|98858-4": {
+  "display": "Esophageal pH monitoring study Document",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP76349-7",
+   "CLASSTYPE": "2",
+   "COMPONENT": "LP428975-9",
+   "ORDER_OBS": "Both",
+   "PROPERTY": "LP6813-2",
+   "SCALE_TYP": "LP32888-7",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP248771-0"
+  }
+ },
+ "loinc|98907-9": {
+  "display": "Hemoglobinopathy panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "CLASS": "LP7833-9",
+   "CLASSTYPE": "1",
+   "COMPONENT": "LP429618-4",
+   "ORDER_OBS": "Order",
+   "PROPERTY": "LP6769-6",
+   "PanelType": "Panel",
+   "SCALE_TYP": "LP7747-1",
+   "STATUS": "ACTIVE",
+   "SYSTEM": "LP310005-6",
+   "TIME_ASPCT": "LP6960-1",
+   "UNITSREQUIRED": "N",
+   "inactive": false,
+   "parent": "LP429641-6"
+  }
+ },
+ "loinc|LP121011-3": {
+  "display": "MOLPATH.MISC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP135481-2": {
+  "display": "SURVEY.CDC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP145936-3": {
+  "display": "PANEL.SURVEY.MTLHLTH",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP200320-2": {
+  "display": "CARD.PROC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP229992-5",
+   "inactive": false,
+   "parent": "LP29708-2"
+  }
+ },
+ "loinc|LP201883-8": {
+  "display": "NEURO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP203647-5": {
+  "display": "EYE.EOG.NEI",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP73420-9",
+   "inactive": false,
+   "parent": "LP7797-6"
+  }
+ },
+ "loinc|LP203648-3": {
+  "display": "EYE.ERG.NEI",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP100837-6",
+   "inactive": false,
+   "parent": "LP7797-6"
+  }
+ },
+ "loinc|LP234174-3": {
+  "display": "CHAL.ROUTINE",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP14635-4",
+   "inactive": false,
+   "parent": "LP343631-0"
+  }
+ },
+ "loinc|LP29676-1": {
+  "display": "EYE.PX",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP429111-0",
+   "inactive": false,
+   "parent": "LP7797-6"
+  }
+ },
+ "loinc|LP29683-7": {
+  "display": "PANEL.DRUG/TOX",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP446952-6",
+   "inactive": false,
+   "parent": "LP7790-1"
+  }
+ },
+ "loinc|LP29684-5": {
+  "display": "RAD",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP411743-0",
+   "inactive": false,
+   "parent": "LP7787-7"
+  }
+ },
+ "loinc|LP31893-8": {
+  "display": "PANEL.COAG",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP94640-7",
+   "inactive": false,
+   "parent": "LP7788-5"
+  }
+ },
+ "loinc|LP31894-6": {
+  "display": "PANEL.BLDBK",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP412093-9",
+   "inactive": false,
+   "parent": "LP7776-0"
+  }
+ },
+ "loinc|LP31895-3": {
+  "display": "PANEL.CHAL",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP433774-9",
+   "inactive": false,
+   "parent": "LP7784-4"
+  }
+ },
+ "loinc|LP31904-3": {
+  "display": "PANEL.VITALS",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP248080-6",
+   "inactive": false,
+   "parent": "LP30605-7"
+  }
+ },
+ "loinc|LP31905-0": {
+  "display": "PANEL.CARDIAC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP200165-1",
+   "inactive": false,
+   "parent": "LP29708-2"
+  }
+ },
+ "loinc|LP31906-8": {
+  "display": "PANEL.IO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP33267-3": {
+  "display": "PANEL.ALLERGY",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP437374-4",
+   "inactive": false,
+   "parent": "LP7756-2"
+  }
+ },
+ "loinc|LP36844-6": {
+  "display": "PANEL.FERT",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP428121-0",
+   "inactive": false,
+   "parent": "LP7798-4"
+  }
+ },
+ "loinc|LP411304-1": {
+  "display": "PANEL.MOLPATH.PHARMG",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP448291-7": {
+  "display": "LABORDERS.ONTOLOGY",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP76349-7": {
+  "display": "DOC.MISC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP7756-2": {
+  "display": "ALLERGY",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP33267-3",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7761-2": {
+  "display": "ATTACH.LAB",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP7767-9": {
+  "display": "BDYCRC.MOLEC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP76187-1",
+   "inactive": false,
+   "parent": "LP29698-5"
+  }
+ },
+ "loinc|LP7768-7": {
+  "display": "BDYHGT.ATOM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP231976-4",
+   "inactive": false,
+   "parent": "LP29699-3"
+  }
+ },
+ "loinc|LP7771-1": {
+  "display": "BDYTMP.ATOM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP73750-9",
+   "inactive": false,
+   "parent": "LP29701-7"
+  }
+ },
+ "loinc|LP7774-5": {
+  "display": "BDYWGT.ATOM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP35925-4",
+   "inactive": false,
+   "parent": "LP29703-3"
+  }
+ },
+ "loinc|LP7776-0": {
+  "display": "BLDBK",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP435742-4",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7778-6": {
+  "display": "BP.CENT.MOLEC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP72832-6",
+   "inactive": false,
+   "parent": "LP29704-1"
+  }
+ },
+ "loinc|LP7779-4": {
+  "display": "BP.MOLEC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP72836-7",
+   "inactive": false,
+   "parent": "LP29704-1"
+  }
+ },
+ "loinc|LP7783-6": {
+  "display": "CELLMARK",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP444257-2",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7784-4": {
+  "display": "CHAL",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP31895-3",
+   "inactive": false,
+   "parent": "LP343631-0"
+  }
+ },
+ "loinc|LP7786-9": {
+  "display": "CHEM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP7834-7",
+   "inactive": false,
+   "parent": "LP343631-0"
+  }
+ },
+ "loinc|LP7787-7": {
+  "display": "CLIN",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP248771-0",
+   "inactive": false,
+   "parent": "LP432695-7"
+  }
+ },
+ "loinc|LP7788-5": {
+  "display": "COAG",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP435649-1",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7789-3": {
+  "display": "CYTO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP15190-9",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7796-8": {
+  "display": "ENDO.GI",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP7801-6": {
+  "display": "H&P.PX",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP33024-8",
+   "inactive": false,
+   "parent": "LP7787-7"
+  }
+ },
+ "loinc|LP7803-2": {
+  "display": "HEM/BC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP7833-9",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7806-5": {
+  "display": "HLA",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP36817-2",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7807-3": {
+  "display": "HRTRATE.ATOM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP74089-1",
+   "inactive": false,
+   "parent": "LP29713-2"
+  }
+ },
+ "loinc|LP7819-8": {
+  "display": "MICRO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP437646-5",
+   "inactive": false,
+   "parent": "LP343406-7"
+  }
+ },
+ "loinc|LP7822-2": {
+  "display": "MOLPATH",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP62072-1",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7831-3": {
+  "display": "OBGYN",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP7833-9": {
+  "display": "PANEL.HEM/BC",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP133932-6",
+   "inactive": false,
+   "parent": "LP7803-2"
+  }
+ },
+ "loinc|LP7834-7": {
+  "display": "PANEL.CHEM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP242685-8",
+   "inactive": false,
+   "parent": "LP7786-9"
+  }
+ },
+ "loinc|LP7835-4": {
+  "display": "PANEL.MICRO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP212161-6",
+   "inactive": false,
+   "parent": "LP7819-8"
+  }
+ },
+ "loinc|LP7838-8": {
+  "display": "PANEL.UA",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP428145-9",
+   "inactive": false,
+   "parent": "LP7851-1"
+  }
+ },
+ "loinc|LP7839-6": {
+  "display": "PATH",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP116676-0",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7840-4": {
+  "display": "PULM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP188442-0",
+   "inactive": false,
+   "parent": "LP7787-7"
+  }
+ },
+ "loinc|LP7841-2": {
+  "display": "RESP.ATOM",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP73752-5",
+   "inactive": false,
+   "parent": "LP29718-1"
+  }
+ },
+ "loinc|LP7844-6": {
+  "display": "SERO",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP7837-0",
+   "inactive": false,
+   "parent": "LP29693-6"
+  }
+ },
+ "loinc|LP7850-3": {
+  "display": "TUMRRGT",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "loinc|LP94654-8": {
+  "display": "PANEL.CLIN",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "child": "LP175613-1",
+   "inactive": false,
+   "parent": "LP7787-7"
+  }
+ },
+ "loinc|LP95319-7": {
+  "display": "PANEL.PHENX",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "STATUS": "ACTIVE",
+   "inactive": false
+  }
+ },
+ "sctsearch|363787002|1|acute phase reactant measurement": [],
+ "sctsearch|363787002|1|fetal heart rate monitoring": [],
+ "sctsearch|71388002|1|Congo red stain": [
+  [
+   "117048009",
+   "Bennhold stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|Gram stain": [
+  [
+   "62777006",
+   "Gram stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|Schirmer": [
+  [
+   "397547000",
+   "Schirmer I test"
+  ]
+ ],
+ "sctsearch|71388002|1|acid fast stain": [
+  [
+   "67122001",
+   "Acid fast stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|acute phase reactant measurement": [],
+ "sctsearch|71388002|1|allergy skin test": [
+  [
+   "252513000",
+   "Allergy test - not skin"
+  ]
+ ],
+ "sctsearch|71388002|1|ambulatory electrocardiographic monitoring": [
+  [
+   "35171000087106",
+   "7 day ambulatory electrocardiographic monitoring"
+  ]
+ ],
+ "sctsearch|71388002|1|amino acid measurement": [
+  [
+   "441543006",
+   "Measurement of amino acid"
+  ]
+ ],
+ "sctsearch|71388002|1|ankle brachial index": [
+  [
+   "401222009",
+   "Left dorsalis pedis ABPI"
+  ]
+ ],
+ "sctsearch|71388002|1|assessment using assessment scale": [
+  [
+   "443512007",
+   "Assessment using Braden Scale"
+  ]
+ ],
+ "sctsearch|71388002|1|audiometry": [
+  [
+   "21727005",
+   "Audiometric test"
+  ]
+ ],
+ "sctsearch|71388002|1|auditory brainstem response": [
+  [
+   "252617009",
+   "Auditory brainstem response screening test"
+  ]
+ ],
+ "sctsearch|71388002|1|autonomic function studies": [
+  [
+   "252800004",
+   "Autonomic function studies"
+  ]
+ ],
+ "sctsearch|71388002|1|autonomic function test": [],
+ "sctsearch|71388002|1|bone marrow aspiration": [
+  [
+   "225279000",
+   "Multiple bone marrow aspiration"
+  ]
+ ],
+ "sctsearch|71388002|1|bone marrow biopsy": [
+  [
+   "234326005",
+   "Bone marrow sampling"
+  ]
+ ],
+ "sctsearch|71388002|1|bone marrow examination": [
+  [
+   "167907006",
+   "Bone marrow examination"
+  ]
+ ],
+ "sctsearch|71388002|1|breath test": [
+  [
+   "164790002",
+   "Breath test"
+  ]
+ ],
+ "sctsearch|71388002|1|bronchial provocation test": [
+  [
+   "165011001",
+   "Bronchial provocation test"
+  ]
+ ],
+ "sctsearch|71388002|1|carbon monoxide diffusing capacity": [
+  [
+   "36421003",
+   "Carbon monoxide diffusing capacity measurement"
+  ]
+ ],
+ "sctsearch|71388002|1|cardiac electrophysiologic study": [
+  [
+   "252425004",
+   "Cardiac electrophysiology"
+  ]
+ ],
+ "sctsearch|71388002|1|cardiac function study": [
+  [
+   "431609005",
+   "MRI stress study of heart"
+  ]
+ ],
+ "sctsearch|71388002|1|cardiotocography": [],
+ "sctsearch|71388002|1|central venous pressure monitoring": [
+  [
+   "86265008",
+   "Central venous pressure monitoring"
+  ]
+ ],
+ "sctsearch|71388002|1|cervical smear": [
+  [
+   "308416009",
+   "Cervical smear call"
+  ]
+ ],
+ "sctsearch|71388002|1|color vision test": [
+  [
+   "7510005",
+   "Color vision examination"
+  ]
+ ],
+ "sctsearch|71388002|1|cystoscopy": [
+  [
+   "142505009",
+   "Cystoscopy"
+  ]
+ ],
+ "sctsearch|71388002|1|cytologic examination": [
+  [
+   "416107004",
+   "Cervical cytology test"
+  ]
+ ],
+ "sctsearch|71388002|1|developmental assessment": [
+  [
+   "716273001",
+   "Assessment using Gesell Developmental Observation Revised"
+  ]
+ ],
+ "sctsearch|71388002|1|direct immunofluorescence": [
+  [
+   "76381007",
+   "HIV-1 indirect immunofluorescence assay"
+  ]
+ ],
+ "sctsearch|71388002|1|electro-oculography": [
+  [
+   "398736007",
+   "Electro-oculogram examination"
+  ]
+ ],
+ "sctsearch|71388002|1|electromyography": [
+  [
+   "252753000",
+   "Macro EMG"
+  ]
+ ],
+ "sctsearch|71388002|1|electron microscopy": [
+  [
+   "73512001",
+   "Electron microscopic study"
+  ]
+ ],
+ "sctsearch|71388002|1|electrophysiologic study": [
+  [
+   "252425004",
+   "Cardiac electrophysiology"
+  ]
+ ],
+ "sctsearch|71388002|1|electroretinography": [
+  [
+   "6615001",
+   "Electroretinography"
+  ]
+ ],
+ "sctsearch|71388002|1|endoscopic retrograde cholangiopancreatography": [
+  [
+   "83735008",
+   "Insertion of biliary stent by ERCP"
+  ]
+ ],
+ "sctsearch|71388002|1|esophageal pH": [
+  [
+   "32218000",
+   "Biopsy of esophagus"
+  ]
+ ],
+ "sctsearch|71388002|1|esophagogastroduodenoscopy": [
+  [
+   "76009000",
+   "Esophagogastroduodenoscopy"
+  ]
+ ],
+ "sctsearch|71388002|1|evoked potential": [
+  [
+   "446229003",
+   "Evoked potential study"
+  ]
+ ],
+ "sctsearch|71388002|1|exercise tolerance test": [
+  [
+   "165079009",
+   "Exercise tolerance test"
+  ]
+ ],
+ "sctsearch|71388002|1|fat stain": [
+  [
+   "10223001",
+   "Fat stain, urine"
+  ]
+ ],
+ "sctsearch|71388002|1|fetal heart rate monitoring": [],
+ "sctsearch|71388002|1|fine needle aspiration": [
+  [
+   "48635004",
+   "Fine needle biopsy"
+  ]
+ ],
+ "sctsearch|71388002|1|fluid balance monitoring": [
+  [
+   "430147008",
+   "Fluid balance monitoring"
+  ]
+ ],
+ "sctsearch|71388002|1|fluorescence in situ hybridization": [
+  [
+   "426329006",
+   "Fluorescence in situ hybridization"
+  ]
+ ],
+ "sctsearch|71388002|1|fluorescence microscopy": [],
+ "sctsearch|71388002|1|fractional flow reserve": [],
+ "sctsearch|71388002|1|gait assessment": [
+  [
+   "445642004",
+   "Assessment using dynamic gait index"
+  ]
+ ],
+ "sctsearch|71388002|1|gastric emptying study": [
+  [
+   "23025002",
+   "Gastric emptying study"
+  ]
+ ],
+ "sctsearch|71388002|1|hemodynamic monitoring": [
+  [
+   "716777001",
+   "Hemodynamic monitoring"
+  ]
+ ],
+ "sctsearch|71388002|1|hysteroscopy": [
+  [
+   "233545006",
+   "Hysteroscopy"
+  ]
+ ],
+ "sctsearch|71388002|1|immunofluorescence": [
+  [
+   "30662005",
+   "Fluorescent immunoassay"
+  ]
+ ],
+ "sctsearch|71388002|1|immunohistochemistry": [
+  [
+   "117617002",
+   "Immunohistochemistry procedure"
+  ]
+ ],
+ "sctsearch|71388002|1|immunologic laboratory test": [],
+ "sctsearch|71388002|1|immunology laboratory test": [
+  [
+   "252318005",
+   "Immunology laboratory test"
+  ]
+ ],
+ "sctsearch|71388002|1|in situ hybridization": [
+  [
+   "426329006",
+   "Fluorescence in situ hybridization"
+  ]
+ ],
+ "sctsearch|71388002|1|intelligence test": [
+  [
+   "72657008",
+   "Intelligence test"
+  ]
+ ],
+ "sctsearch|71388002|1|iron stain": [
+  [
+   "117304008",
+   "Iron hematoxylin stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|light microscopy": [
+  [
+   "104157003",
+   "Light microscopy"
+  ]
+ ],
+ "sctsearch|71388002|1|lumbar puncture": [
+  [
+   "277762005",
+   "Lumbar puncture"
+  ]
+ ],
+ "sctsearch|71388002|1|macroscopic examination": [
+  [
+   "168126000",
+   "Sample macroscopy"
+  ]
+ ],
+ "sctsearch|71388002|1|manometry": [
+  [
+   "252553002",
+   "Rhinomanometry"
+  ]
+ ],
+ "sctsearch|71388002|1|mini mental state examination": [
+  [
+   "446971008",
+   "Assessment using mini-mental state examination"
+  ]
+ ],
+ "sctsearch|71388002|1|molecular genetic test": [
+  [
+   "405825005",
+   "Molecular genetic test"
+  ]
+ ],
+ "sctsearch|71388002|1|mucicarmine stain": [
+  [
+   "117316002",
+   "Mucicarmine stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|mucin stain": [],
+ "sctsearch|71388002|1|muscle strength test": [
+  [
+   "699807003",
+   "Dynamic extension test"
+  ]
+ ],
+ "sctsearch|71388002|1|nerve conduction study": [
+  [
+   "51110005",
+   "Nerve conduction study"
+  ]
+ ],
+ "sctsearch|71388002|1|neuropsychological assessment": [
+  [
+   "716159003",
+   "Assessment using Luria-Nebraska Neuropsychological Battery"
+  ]
+ ],
+ "sctsearch|71388002|1|nucleic acid amplification": [
+  [
+   "69363007",
+   "Nucleic acid amplification"
+  ]
+ ],
+ "sctsearch|71388002|1|nucleic acid amplification test": [],
+ "sctsearch|71388002|1|ocular motility study": [
+  [
+   "17259005",
+   "Ocular motility study"
+  ]
+ ],
+ "sctsearch|71388002|1|ocular motility test": [],
+ "sctsearch|71388002|1|otoacoustic emission": [
+  [
+   "446077009",
+   "Automated otoacoustic emission test"
+  ]
+ ],
+ "sctsearch|71388002|1|pathology procedure": [
+  [
+   "80504003",
+   "Speech pathology procedure"
+  ]
+ ],
+ "sctsearch|71388002|1|periodic acid Schiff stain": [
+  [
+   "104216002",
+   "Periodic acid Schiff stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|physiological test": [
+  [
+   "164961002",
+   "Physiological function tests"
+  ]
+ ],
+ "sctsearch|71388002|1|plethysmography": [
+  [
+   "20552003",
+   "Plethysmography"
+  ]
+ ],
+ "sctsearch|71388002|1|polarized light microscopy": [],
+ "sctsearch|71388002|1|polysomnography": [
+  [
+   "60554003",
+   "Polysomnography"
+  ]
+ ],
+ "sctsearch|71388002|1|provocation test": [
+  [
+   "252521006",
+   "Oral provocation test"
+  ]
+ ],
+ "sctsearch|71388002|1|pulmonary function test": [
+  [
+   "76572000",
+   "Measurement of lung volume"
+  ]
+ ],
+ "sctsearch|71388002|1|refraction": [
+  [
+   "421442008",
+   "Fogging"
+  ]
+ ],
+ "sctsearch|71388002|1|right heart catheterization": [
+  [
+   "712756001",
+   "Vasoreactivity test"
+  ]
+ ],
+ "sctsearch|71388002|1|scanning electron microscopy": [
+  [
+   "104159000",
+   "Scanning electron microscopy study"
+  ]
+ ],
+ "sctsearch|71388002|1|serologic test": [
+  [
+   "68793005",
+   "Serologic test"
+  ]
+ ],
+ "sctsearch|71388002|1|silver stain": [
+  [
+   "117236003",
+   "Gomori stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|six minute walk test": [],
+ "sctsearch|71388002|1|somatosensory evoked potential": [
+  [
+   "708691004",
+   "Somatosensory evoked potential study"
+  ]
+ ],
+ "sctsearch|71388002|1|special stain": [
+  [
+   "69915000",
+   "Special stain for microorganism"
+  ]
+ ],
+ "sctsearch|71388002|1|spirometry": [
+  [
+   "127783003",
+   "Spirometry"
+  ]
+ ],
+ "sctsearch|71388002|1|sweat test": [
+  [
+   "168172001",
+   "Sweat test"
+  ]
+ ],
+ "sctsearch|71388002|1|tilt table test": [
+  [
+   "14769009",
+   "Tilt table test"
+  ]
+ ],
+ "sctsearch|71388002|1|transmission electron microscopy": [
+  [
+   "39046009",
+   "Electron microscopy transmission technique, complete"
+  ]
+ ],
+ "sctsearch|71388002|1|trichrome stain": [
+  [
+   "104207001",
+   "Trichrome stain method"
+  ]
+ ],
+ "sctsearch|71388002|1|tympanometry": [
+  [
+   "91573000",
+   "Tympanometry testing"
+  ]
+ ],
+ "sctsearch|71388002|1|urodynamic": [
+  [
+   "252895004",
+   "Urodynamic studies"
+  ]
+ ],
+ "sctsearch|71388002|1|vestibular function test": [
+  [
+   "721101008",
+   "Head impulse test"
+  ]
+ ],
+ "sctsearch|71388002|1|visual evoked potential": [
+  [
+   "63107007",
+   "Visual evoked potential study"
+  ]
+ ],
+ "sctsearch|71388002|1|visual field test": [
+  [
+   "86944008",
+   "Visual field study"
+  ]
+ ],
+ "sct|104130000": {
+  "display": "Peripheral blood smear examination, light microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116686009": "122551003",
+   "246093002": "364708003",
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363703001": "261004008",
+   "424226004": "65473004",
+   "child": "74216007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "609298005"
+  }
+ },
+ "sct|104157003": {
+  "display": "Light microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "364708003",
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363703001": "261004008",
+   "424226004": "65473004",
+   "child": "164840008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "117259009"
+  }
+ },
+ "sct|104326007": {
+  "display": "Measurement of Varicella-zoster virus antibody",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116678009": "68498002",
+   "246075003": "19551004",
+   "246093002": "259858000",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "315231005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "313394004"
+  }
+ },
+ "sct|10847001": {
+  "display": "Bronchoscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260686004": "129433002",
+   "261583007": "37270008",
+   "363699004": "37270008",
+   "363704007": "38866009",
+   "370127007": "24174009",
+   "405813007": "321667001",
+   "424226004": "24174009",
+   "child": "439939004",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "423827005"
+  }
+ },
+ "sct|117241006": {
+  "display": "Perls' stain method",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363701004": "255809005",
+   "363703001": "261004008",
+   "424361007": "406452004",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "117298004"
+  }
+ },
+ "sct|117259009": {
+  "display": "Microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363703001": "261004008",
+   "424226004": "65473004",
+   "child": "1217231003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "32750006"
+  }
+ },
+ "sct|117617002": {
+  "display": "Immunohistochemistry procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "433114000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "108257001"
+  }
+ },
+ "sct|122444009": {
+  "display": "Enzyme measurement",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116678009": "90668006",
+   "246093002": "90668006",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "444711007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "430925007"
+  }
+ },
+ "sct|127783003": {
+  "display": "Spirometry",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "363704007": "321667001",
+   "child": "767906009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "23426006"
+  }
+ },
+ "sct|127796002": {
+  "display": "Direct tissue immunofluorescence procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "7120007",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "1153448008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "430925007"
+  }
+ },
+ "sct|1348332002": {
+  "display": "Cytopathology procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "child": "787370003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "108257001"
+  }
+ },
+ "sct|13714004": {
+  "display": "Arthroscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260669005": "103379005",
+   "260686004": "129287005",
+   "261583007": "37270008",
+   "363699004": "37270008",
+   "363704007": "39352004",
+   "370127007": "23228005",
+   "405813007": "39352004",
+   "424226004": "23228005",
+   "child": "1231395009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "302495003"
+  }
+ },
+ "sct|15220000": {
+  "display": "Laboratory test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "40093005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "386053000"
+  }
+ },
+ "sct|162673000": {
+  "display": "General examination of patient",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "442083009",
+   "child": "281027008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|163778008": {
+  "display": "Examination of reflexes",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "25087005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "284367004"
+  }
+ },
+ "sct|164771005": {
+  "display": "Examination of pharynx",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "123037004",
+   "405813007": "54066008",
+   "child": "392102003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "27032005"
+  }
+ },
+ "sct|165079009": {
+  "display": "Exercise tolerance test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "363704007": "113257007",
+   "child": "46136006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "276341003"
+  }
+ },
+ "sct|16585004": {
+  "display": "Congenital spade-like hand",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116676008": "442021009",
+   "246454002": "255399007",
+   "363698007": "26107004",
+   "370135005": "308490002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "1230354001"
+  }
+ },
+ "sct|166312007": {
+  "display": "Blood chemistry",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "105590001",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "371361000119107",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "430925007"
+  }
+ },
+ "sct|167907006": {
+  "display": "Bone marrow examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116686009": "119359002",
+   "246093002": "364709006",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "391426006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "26086007"
+  }
+ },
+ "sct|168126000": {
+  "display": "Sample macroscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "364708003",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "167230006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "117258001"
+  }
+ },
+ "sct|19851009": {
+  "display": "Microbiology procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "122061000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "15220000"
+  }
+ },
+ "sct|1999007": {
+  "display": "Psychologic test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "442083009",
+   "child": "89887008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "45392008"
+  }
+ },
+ "sct|20489006": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|20602000": {
+  "display": "Indifference",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "363714003": "3850002",
+   "child": "1141960001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "225652009"
+  }
+ },
+ "sct|21727005": {
+  "display": "Audiometric test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "419661001",
+   "363703001": "261004008",
+   "363704007": "58675001",
+   "405813007": "91159003",
+   "child": "252588002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "398171003"
+  }
+ },
+ "sct|225162003": {
+  "display": "Examination of abdomen",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "818983003",
+   "405813007": "818983003",
+   "child": "177768005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|225670007": {
+  "display": "Examination of ear",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360224006",
+   "363703001": "261004008",
+   "363704007": "123037004",
+   "405813007": "117590005",
+   "child": "363113000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "113028003"
+  }
+ },
+ "sct|23426006": {
+  "display": "Measurement of respiratory function",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "363704007": "321667001",
+   "child": "1285304005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "122869004"
+  }
+ },
+ "sct|250724005": {
+  "display": "Tumor marker measurement",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "259672007",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "37886006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "430925007"
+  }
+ },
+ "sct|252270006": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|252318005": {
+  "display": "Immunology laboratory test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "106181007",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "413021006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "15220000"
+  }
+ },
+ "sct|252392005": {
+  "display": "Cerebrospinal fluid microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116686009": "258450006",
+   "246093002": "364708003",
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363701004": "65216001",
+   "363703001": "261004008",
+   "424226004": "65473004",
+   "child": "609313004",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "608853001"
+  }
+ },
+ "sct|252393000": {
+  "display": "Stool microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116686009": "119339001",
+   "246093002": "364708003",
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363703001": "261004008",
+   "424226004": "65473004",
+   "child": "609300005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "167592004"
+  }
+ },
+ "sct|252416005": {
+  "display": "Histopathology test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116686009": "119376003",
+   "246093002": "271920001",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "86693001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "714797009"
+  }
+ },
+ "sct|252423000": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|252472004": {
+  "display": "Lung volume test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "252475002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "122869004"
+  }
+ },
+ "sct|252478000": {
+  "display": "6-minute walk test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "363704007": "113257007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "302761001"
+  }
+ },
+ "sct|252512005": {
+  "display": "In vivo test of hypersensitivity",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "106181007",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "268377001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "252511003"
+  }
+ },
+ "sct|252626006": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|252761006": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|252796009": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|252895004": {
+  "display": "Urodynamic studies",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "363704007": "122489005",
+   "405813007": "122489005",
+   "child": "710294007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "302778005"
+  }
+ },
+ "sct|268925001": {
+  "display": "Examination of respiratory system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "20139000",
+   "405813007": "20139000",
+   "child": "177805000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118669005"
+  }
+ },
+ "sct|268945009": {
+  "display": "Examination of genitourinary system",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "21514008",
+   "405813007": "21514008",
+   "child": "163351008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "276343000"
+  }
+ },
+ "sct|271303006": {
+  "display": "Examination of skin",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "39937001",
+   "405813007": "39937001",
+   "child": "284439007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "284366008"
+  }
+ },
+ "sct|27171005": {
+  "display": "Urinalysis",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116678009": "32457005",
+   "116686009": "122575003",
+   "246093002": "32457005",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "171245007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "442564008"
+  }
+ },
+ "sct|274786004": {
+  "display": "Examination of cranial nerve",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "25238003",
+   "405813007": "25238003",
+   "child": "709425003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "84728005"
+  }
+ },
+ "sct|274787008": {
+  "display": "Examination of gait",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "91689009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "284367004"
+  }
+ },
+ "sct|274793000": {
+  "display": "Examination of muscle power",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "91689009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "284367004"
+  }
+ },
+ "sct|274794006": {
+  "display": "Examination of nose",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "45206002",
+   "405813007": "45206002",
+   "child": "172829002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118781003"
+  }
+ },
+ "sct|274796008": {
+  "display": "Examination of pain sensation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "91689009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "284367004"
+  }
+ },
+ "sct|276341003": {
+  "display": "Cardiovascular investigation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "363704007": "113257007",
+   "child": "711014008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118672003"
+  }
+ },
+ "sct|284393006": {
+  "display": "Examination of joint",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "39352004",
+   "child": "700212000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "446428008"
+  }
+ },
+ "sct|284394000": {
+  "display": "Examination of spine",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "26107004",
+   "405813007": "1141981001",
+   "child": "1255362003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|284420002": {
+  "display": "Examination of nail",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "123037004",
+   "405813007": "314410003",
+   "child": "284422005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "271303006"
+  }
+ },
+ "sct|284427004": {
+  "display": "Examination of lymph nodes",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "59441001",
+   "405813007": "59441001",
+   "child": "712993002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "164135002"
+  }
+ },
+ "sct|284433008": {
+  "display": "Examination of muscle",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "71616004",
+   "405813007": "71616004",
+   "child": "71367006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|284448002": {
+  "display": "Examination of heart",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "80891009",
+   "405813007": "80891009",
+   "child": "449263002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118797008"
+  }
+ },
+ "sct|29240004": {
+  "display": "Autopsy examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "271920001",
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "702692002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "386053000"
+  }
+ },
+ "sct|30058000": {
+  "display": "Therapeutic drug monitoring assay",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116678009": "2533004",
+   "116686009": "119297000",
+   "246093002": "410942007",
+   "260686004": "129266000",
+   "363701004": "410942007",
+   "363702006": "370807008",
+   "363703001": "261004008",
+   "child": "77667008",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "395170001"
+  }
+ },
+ "sct|302773001": {
+  "display": "Examination of limb",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "66019005",
+   "405813007": "66019005",
+   "child": "439595002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|31128005": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|3116009": {
+  "display": "Blood coagulation panel",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "395216006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "127791007"
+  }
+ },
+ "sct|314067002": {
+  "display": "Autoantibody measurement",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116678009": "68498002",
+   "246093002": "30621004",
+   "260686004": "129266000",
+   "363703001": "261004008",
+   "child": "118141003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "3527003"
+  }
+ },
+ "sct|314076009": {
+  "display": "Toxicology screening test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "105590001",
+   "260686004": "129266000",
+   "363703001": "360156006",
+   "child": "40167001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "430925007"
+  }
+ },
+ "sct|33468001": {
+  "display": "Hematology procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "14598005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "15220000"
+  }
+ },
+ "sct|36228007": {
+  "display": "Ophthalmic examination and evaluation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "49549006",
+   "405813007": "49549006",
+   "child": "1356804001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "371560009"
+  }
+ },
+ "sct|363003006": {
+  "display": "Cardiovascular physical examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "442083009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|363215001": {
+  "display": "Musculoskeletal system physical examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "26107004",
+   "405813007": "26107004",
+   "child": "417602003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "446428008"
+  }
+ },
+ "sct|363679005": {
+  "display": "Imaging",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360037004",
+   "363703001": "261004008",
+   "child": "1337998006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "386053000"
+  }
+ },
+ "sct|371842003": {
+  "display": "Fractional flow reserve",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "child": "371841005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "310612008"
+  }
+ },
+ "sct|37436000": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|386718000": {
+  "display": "Endoscopic retrograde cholangiopancreatography",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260686004": "129433002",
+   "363701004": "385420005",
+   "363703001": "261004008",
+   "363704007": "28273000",
+   "370127007": "37270008",
+   "405813007": "67109009",
+   "405814001": "69930009",
+   "424226004": "19923001",
+   "424361007": "385420005",
+   "425391005": "37270008",
+   "child": "1287766009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "174651007"
+  }
+ },
+ "sct|391245000": {
+  "display": "Gram stain microscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "424226004": "65473004",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "117259009"
+  }
+ },
+ "sct|392257007": {
+  "display": "Neurological mental status determination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363704007": "25087005",
+   "405813007": "25087005",
+   "child": "79094001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "315306007"
+  }
+ },
+ "sct|39228008": {
+  "display": "Surgical pathology procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "787996005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "108257001"
+  }
+ },
+ "sct|395118002": {
+  "display": "Metabolic screening test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "105590001",
+   "260686004": "129266000",
+   "363702006": "106089007",
+   "363703001": "360156006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "386053000"
+  }
+ },
+ "sct|395121000": {
+  "display": "Examination of scalp",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363704007": "39937001",
+   "405813007": "39937001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "271303006"
+  }
+ },
+ "sct|395691005": {
+  "display": "Child examination: gait development",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363704007": "442083009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "271404001"
+  }
+ },
+ "sct|397397002": {
+  "display": "Bronchoscopy and bronchoalveolar lavage",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260686004": "129433002",
+   "363701004": "373772008",
+   "363704007": "113253006",
+   "370127007": "24174009",
+   "405813007": "321667001",
+   "424226004": "469496006",
+   "424361007": "373772008",
+   "425391005": "24174009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "397860000"
+  }
+ },
+ "sct|39868003": {
+  "display": "Inspection of mouth",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360224006",
+   "363703001": "261004008",
+   "363704007": "123851003",
+   "405813007": "123851003",
+   "child": "1357743003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "32750006"
+  }
+ },
+ "sct|405825005": {
+  "display": "Molecular genetic test",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "child": "925221000000106",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "405824009"
+  }
+ },
+ "sct|410007005": {
+  "display": "Rectal examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363704007": "34402009",
+   "405813007": "34402009",
+   "child": "235342007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "443466001"
+  }
+ },
+ "sct|410551005": {
+  "display": "Family history taking",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129431000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "84100007"
+  }
+ },
+ "sct|426329006": {
+  "display": "Fluorescence in situ hybridisation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "246093002": "105590001",
+   "260686004": "129266000",
+   "child": "429532007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "384715000"
+  }
+ },
+ "sct|43571003": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|44441009": {
+  "display": "Flexible fiberoptic sigmoidoscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260686004": "129433002",
+   "261583007": "37270008",
+   "309824003": "309822004",
+   "363699004": "37270008",
+   "363704007": "14742008",
+   "370127007": "310199004",
+   "405813007": "60184004",
+   "424226004": "701096003",
+   "child": "396226005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "24420007"
+  }
+ },
+ "sct|446657003": {
+  "display": "Criss-cross heart with rightward rotation",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "116676008": "49755003",
+   "246454002": "255399007",
+   "363698007": "80891009",
+   "370135005": "308490002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "253269002"
+  }
+ },
+ "sct|44714003": {
+  "display": "Structure of upper lobe of left lung",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "123005000": "361982005",
+   "272741003": "7771000",
+   "child": "245521007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "45653009"
+  }
+ },
+ "sct|45036003": {
+  "display": "Ultrasonography of abdomen",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360037004",
+   "363703001": "261004008",
+   "363704007": "113345001",
+   "405813007": "818982008",
+   "child": "1359752000",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "441987005"
+  }
+ },
+ "sct|457601000124102": {
+  "display": "Examination of neck",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "405813007": "45048000",
+   "child": "172968005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|45894001": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|46339005": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|46662001": {
+  "display": "Examination of breast",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360224006",
+   "363703001": "261004008",
+   "363704007": "123037004",
+   "405813007": "76752008",
+   "child": "372277005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "392089008"
+  }
+ },
+ "sct|49401003": {
+  "display": "Bone marrow aspiration procedure",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129316008",
+   "363701004": "413679007",
+   "363704007": "122490001",
+   "405813007": "14016003",
+   "child": "708694007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118728006"
+  }
+ },
+ "sct|53422007": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|56064002": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|56207000": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|56241004": {
+  "display": "Bone marrow biopsy, needle or trocar",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129284003",
+   "363703001": "261004008",
+   "363704007": "245255009",
+   "405813007": "14016003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "86273004"
+  }
+ },
+ "sct|5880005": {
+  "display": "Physical examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "442083009",
+   "child": "178376007",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "315306007"
+  }
+ },
+ "sct|61746007": {
+  "display": "Taking patient vital signs",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "442083009",
+   "child": "425058005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "5880005"
+  }
+ },
+ "sct|64444005": {
+  "display": "Flow cytometry",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129265001",
+   "363703001": "261004008",
+   "child": "714696009",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "127789004"
+  }
+ },
+ "sct|65266007": {
+  "display": "Structure of deep inguinal lymph node",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "123005000": "302553009",
+   "272741003": "182353008",
+   "child": "731080002",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "8928004"
+  }
+ },
+ "sct|716777001": {
+  "display": "Hemodynamic monitoring",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "360152008",
+   "363704007": "59820001",
+   "child": "386341005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118804001"
+  }
+ },
+ "sct|73512001": {
+  "display": "Electron microscopic study",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "129433002",
+   "261583007": "65473004",
+   "363699004": "65473004",
+   "363703001": "261004008",
+   "424226004": "706586003",
+   "child": "82189005",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "117259009"
+  }
+ },
+ "sct|73632009": {
+  "display": "Laparoscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260669005": "103379005",
+   "260686004": "129287005",
+   "261583007": "37270008",
+   "363704007": "818983003",
+   "370127007": "86174004",
+   "405813007": "59380008",
+   "424226004": "86174004",
+   "child": "1351771001",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "112978005"
+  }
+ },
+ "sct|73761001": {
+  "display": "Colonoscopy",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260507000": "129238008",
+   "260686004": "129433002",
+   "261583007": "37270008",
+   "363699004": "37270008",
+   "363704007": "14742008",
+   "370127007": "312029001",
+   "405813007": "71854001",
+   "424226004": "90412006",
+   "child": "1351202006",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "118839001"
+  }
+ },
+ "sct|76054008": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "sct|817011007": {
+  "display": "Tissue frozen section technique",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "13283003"
+  }
+ },
+ "sct|84728005": {
+  "display": "Neurological examination",
+  "error": null,
+  "ok": true,
+  "properties": {
+   "260686004": "302199004",
+   "363703001": "261004008",
+   "363704007": "91689009",
+   "405813007": "25087005",
+   "child": "307328003",
+   "effectiveTime": null,
+   "inactive": false,
+   "module": "900000000000207008",
+   "parent": "399210005"
+  }
+ },
+ "sct|86128009": {
+  "display": null,
+  "error": "HTTP 404",
+  "ok": false,
+  "properties": {}
+ },
+ "search|1|24 hour Urine protein": [
+  [
+   "21028-6",
+   "Protein [Interpretation] in 24 hour Urine"
+  ]
+ ],
+ "search|1|ABO and Rh group": [
+  [
+   "93906-6",
+   "ABO and Rh group [Type] in Blood--during infancy"
+  ]
+ ],
+ "search|1|Acetylcholine receptor antibody": [
+  [
+   "106787-5",
+   "Acetylcholine receptor Ab [Presence] in Serum by Immunoassay"
+  ]
+ ],
+ "search|1|Acid fast stain": [
+  [
+   "107602-5",
+   "Microscopic observation [Identifier] in Aspirate by Acid fast stain.Kinyoun modified"
+  ]
+ ],
+ "search|1|Acute phase reactant panel": [],
+ "search|1|Aldosterone renin ratio": [
+  [
+   "30894-0",
+   "Aldosterone/Renin [Ratio] in Plasma"
+  ]
+ ],
+ "search|1|Allergen Ab.IgE": [
+  [
+   "96185-4",
+   "Indoor respiratory allergen IgE panel - Serum"
+  ]
+ ],
+ "search|1|Allergen skin test": [
+  [
+   "112114-4",
+   "Skin yeast IgE Ab [Units/volume] in Serum or Plasma by Immunoassay"
+  ]
+ ],
+ "search|1|Allergen specific IgE": [],
+ "search|1|Amino acids panel": [
+  [
+   "35507-3",
+   "Amino acids panel [Moles/volume] - Cerebral spinal fluid"
+  ]
+ ],
+ "search|1|Ankle brachial index": [
+  [
+   "77194-9",
+   "Ankle-brachial index"
+  ]
+ ],
+ "search|1|Auditory brainstem response": [
+  [
+   "98480-7",
+   "Auditory brainstem response panel"
+  ]
+ ],
+ "search|1|Autoantibody panel": [
+  [
+   "110826-5",
+   "HLA Ab [Measurement] in Serum"
+  ]
+ ],
+ "search|1|Autonomic nervous system study": [],
+ "search|1|Bacteria identified in Specimen by Culture": [
+  [
+   "6463-4",
+   "Bacteria identified in Specimen by Culture"
+  ]
+ ],
+ "search|1|Blood smear examination": [],
+ "search|1|Blood smear findings": [],
+ "search|1|Bone marrow aspirate study": [],
+ "search|1|Bone marrow biopsy study": [],
+ "search|1|Bone marrow study": [
+  [
+   "57764-3",
+   "Microscopic exam [Interpretation] of Bone marrow by Cytology"
+  ]
+ ],
+ "search|1|Breath test": [
+  [
+   "29892-7",
+   "Helicobacter pylori [Quantitative] in Stomach by urea breath test"
+  ]
+ ],
+ "search|1|Bronchoalveolar lavage panel": [
+  [
+   "87964-3",
+   "Respiratory pathogens panel - Bronchoalveolar lavage by Immunofluorescence"
+  ]
+ ],
+ "search|1|Bronchodilator response": [],
+ "search|1|CD antigen Tissue by Immune stain": [
+  [
+   "10443-0",
+   "CD43 T-cell monocyte+myeloid cell Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Cancer Ag 19-9": [
+  [
+   "97750-4",
+   "Cancer Ag 19-9 [Units/volume] in Aspirate"
+  ]
+ ],
+ "search|1|Cardiac study": [
+  [
+   "18745-0",
+   "Cardiac catheterization study"
+  ]
+ ],
+ "search|1|Cardiolipin antibody": [
+  [
+   "3181-5",
+   "Cardiolipin IgG Ab [Units/volume] in Serum by Immunoassay"
+  ]
+ ],
+ "search|1|Cell count and differential panel Body fluid": [
+  [
+   "34557-9",
+   "Cell count and Differential panel - Body fluid"
+  ]
+ ],
+ "search|1|Central venous pressure": [
+  [
+   "60985-9",
+   "Central venous pressure (CVP)"
+  ]
+ ],
+ "search|1|Cerebral spinal fluid opening pressure": [],
+ "search|1|Ceruloplasmin Serum or Plasma": [
+  [
+   "40455-8",
+   "Ceruloplasmin actual/normal in Serum or Plasma"
+  ]
+ ],
+ "search|1|Cervical cytology report": [
+  [
+   "33717-0",
+   "Cervical AndOr vaginal cytology study"
+  ]
+ ],
+ "search|1|Chromosome analysis microarray": [
+  [
+   "107159-6",
+   "Chromosome analysis in Blood by Microarray"
+  ]
+ ],
+ "search|1|Clinical assessment scale": [
+  [
+   "111744-9",
+   "Breastfeeding assessment scale LATCH"
+  ]
+ ],
+ "search|1|Coagulation panel": [
+  [
+   "44791-2",
+   "Menorrhagia coagulation panel - Platelet poor plasma"
+  ]
+ ],
+ "search|1|Color vision study": [],
+ "search|1|Congo red stain": [
+  [
+   "10782-1",
+   "Microscopic observation [Identifier] in Tissue by Congo red stain"
+  ]
+ ],
+ "search|1|Cortisol Serum or Plasma": [
+  [
+   "87429-7",
+   "Cortisol AM and PM panel - Serum or Plasma"
+  ]
+ ],
+ "search|1|Cystoscopy study": [
+  [
+   "104071-6",
+   "Cystoscopy study Document"
+  ]
+ ],
+ "search|1|Cytokeratin Tissue by Immune stain": [
+  [
+   "97158-0",
+   "Cytokeratin 8 Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Cytology report": [
+  [
+   "47521-0",
+   "Cytology report of Breast fine needle aspirate Cyto stain"
+  ]
+ ],
+ "search|1|Cytology report Body fluid": [
+  [
+   "47523-6",
+   "Cytology report of Body fluid Cyto stain"
+  ]
+ ],
+ "search|1|Cytology report Fine needle aspirate": [
+  [
+   "47521-0",
+   "Cytology report of Breast fine needle aspirate Cyto stain"
+  ]
+ ],
+ "search|1|Desmin Tissue by Immune stain": [
+  [
+   "10476-0",
+   "Desmin Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Developmental screening": [],
+ "search|1|Direct immunofluorescence Tissue": [],
+ "search|1|Drug toxicology screen": [
+  [
+   "55419-6",
+   "Home drug screening panel - Urine"
+  ]
+ ],
+ "search|1|Electrooculogram study": [
+  [
+   "79771-2",
+   "Overall study interpretation Right retina by EOG"
+  ]
+ ],
+ "search|1|Electrophysiology study": [
+  [
+   "18750-0",
+   "Cardiac electrophysiology study"
+  ]
+ ],
+ "search|1|Electroretinogram study": [
+  [
+   "79793-6",
+   "Overall study interpretation Left retina by ERG"
+  ]
+ ],
+ "search|1|Endocrine studies": [
+  [
+   "92895-2",
+   "Endocrinology studies"
+  ]
+ ],
+ "search|1|Endoscopic retrograde cholangiopancreatography": [
+  [
+   "111882-7",
+   "Total exposure time ERCP"
+  ]
+ ],
+ "search|1|Enzyme activity Serum": [
+  [
+   "74522-4",
+   "Complement lectin pathway actual/normal in Serum by Immunoassay"
+  ]
+ ],
+ "search|1|Esophageal manometry study": [
+  [
+   "51393-7",
+   "Esophageal manometry study"
+  ]
+ ],
+ "search|1|Esophageal pH study": [
+  [
+   "98858-4",
+   "Esophageal pH monitoring study Document"
+  ]
+ ],
+ "search|1|Esophagogastroduodenoscopy study": [
+  [
+   "28014-9",
+   "EGD Study"
+  ]
+ ],
+ "search|1|Estrogen receptor Tissue by Immune stain": [
+  [
+   "40556-3",
+   "Estrogen receptor Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Evoked potential study": [
+  [
+   "77199-8",
+   "Evoked potential study"
+  ]
+ ],
+ "search|1|Extractable nuclear Ab": [
+  [
+   "110083-3",
+   "U1 small nuclear ribonucleoprotein 70kD Ab [Measurement] in Serum"
+  ]
+ ],
+ "search|1|Extractable nuclear antigen antibody": [],
+ "search|1|FISH": [
+  [
+   "7311-4",
+   "Fish IgE Ab [Units/volume] in Serum"
+  ]
+ ],
+ "search|1|FISH Tissue": [
+  [
+   "78042-9",
+   "Vendor FISH product name [Identifier] in Blood or Tissue"
+  ]
+ ],
+ "search|1|Family history": [
+  [
+   "111841-3",
+   "Family history of malignant tumor"
+  ]
+ ],
+ "search|1|Fluid intake and output": [
+  [
+   "34536-3",
+   "Fluid intake and output panel 24 hour"
+  ]
+ ],
+ "search|1|Follitropin Serum or Plasma": [
+  [
+   "103648-2",
+   "Follitropin [Units/volume] in Serum or Plasma --4 hours post dose gonadotropin releasing hormone"
+  ]
+ ],
+ "search|1|Fungus identified in Specimen by Culture": [
+  [
+   "580-1",
+   "Fungus identified in Specimen by Culture"
+  ]
+ ],
+ "search|1|Gait assessment": [
+  [
+   "93015-6",
+   "Gait and turn and tandem gait assessment"
+  ]
+ ],
+ "search|1|Gastric emptying study": [],
+ "search|1|Gene mutation analysis": [
+  [
+   "72886-5",
+   "CYP2D6 gene and CYP2C19 gene targeted mutation analysis panel - Blood or Tissue by Molecular genetics method"
+  ]
+ ],
+ "search|1|Gomori methenamine silver stain": [
+  [
+   "670-0",
+   "Microscopic observation [Identifier] in Specimen by Methenamine silver nitrate stain"
+  ]
+ ],
+ "search|1|Gram stain": [
+  [
+   "74759-2",
+   "Yeast [Presence] in Specimen by Gram stain"
+  ]
+ ],
+ "search|1|HLA-B27": [
+  [
+   "4821-5",
+   "HLA-B27 [Presence]"
+  ]
+ ],
+ "search|1|Hematology studies": [
+  [
+   "18723-7",
+   "Hematology studies (set)"
+  ]
+ ],
+ "search|1|Hemoglobinopathy panel": [
+  [
+   "98907-9",
+   "Hemoglobinopathy panel"
+  ]
+ ],
+ "search|1|Hepatitis panel": [
+  [
+   "24313-9",
+   "Hepatitis 1996 panel - Serum"
+  ]
+ ],
+ "search|1|Immunofluorescence Tissue": [
+  [
+   "20868-6",
+   "Leptospira sp [Presence] in Tissue by Immunofluorescence"
+  ]
+ ],
+ "search|1|Immunohistochemistry stain": [],
+ "search|1|Immunology studies": [],
+ "search|1|In situ hybridization Tissue": [
+  [
+   "102086-6",
+   "Endometrial stromal tumor in Tissue Document by FISH"
+  ]
+ ],
+ "search|1|Infectious disease antibody panel": [
+  [
+   "88129-2",
+   "Respiratory pathogens panel - Throat by Immunofluorescence"
+  ]
+ ],
+ "search|1|Insulin Serum or Plasma": [
+  [
+   "109075-2",
+   "C peptide [Measurement] in Serum or Plasma"
+  ]
+ ],
+ "search|1|Insulin-like growth factor-I": [
+  [
+   "13896-6",
+   "Insulin-like growth factor-I [Units/volume] in Blood"
+  ]
+ ],
+ "search|1|Intelligence quotient": [],
+ "search|1|Interleukin 6": [
+  [
+   "51053-7",
+   "CD126 blasts [Units/volume] in Blood"
+  ]
+ ],
+ "search|1|Iron stain": [
+  [
+   "18305-3",
+   "Amoeba identified in Aspirate by Iron hematoxylin stain"
+  ]
+ ],
+ "search|1|Ki-67 Tissue by Immune stain": [
+  [
+   "33055-5",
+   "Ki-67 nuclear Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Laboratory studies": [
+  [
+   "26436-6",
+   "Laboratory studies (set)"
+  ]
+ ],
+ "search|1|Metanephrine Urine": [
+  [
+   "14831-2",
+   "Metanephrine/Creatinine [Molar ratio] in Urine"
+  ]
+ ],
+ "search|1|Methylation analysis": [
+  [
+   "97760-3",
+   "MLH1 gene methylation analysis in Blood by Molecular genetics method"
+  ]
+ ],
+ "search|1|Microorganism identified by NAA": [],
+ "search|1|Microscopic observation Gram stain": [
+  [
+   "32026-7",
+   "Microscopic observation [Identifier] in Nose by Gram stain"
+  ]
+ ],
+ "search|1|Mini mental state examination": [
+  [
+   "72107-6",
+   "Mini-Mental State Examination [MMSE]"
+  ]
+ ],
+ "search|1|Mitochondrial antibody": [
+  [
+   "111022-0",
+   "Mitochondria M2 Ab [Measurement] in Serum"
+  ]
+ ],
+ "search|1|Molecular genetics analysis": [
+  [
+   "107286-7",
+   "Homologous recombination deficiency status analysis [Presence] in Tissue by Molecular genetics method"
+  ]
+ ],
+ "search|1|Molecular pathology report": [
+  [
+   "95231-7",
+   "Chromosome aneuploidy details in Blood or Tissue by Molecular genetics method Narrative"
+  ]
+ ],
+ "search|1|Mucicarmine stain": [
+  [
+   "10796-1",
+   "Microscopic observation [Identifier] in Tissue by Mucicarmine stain"
+  ]
+ ],
+ "search|1|Muscle strength": [
+  [
+   "62821-4",
+   "PhenX - muscle strength protocol 150301"
+  ]
+ ],
+ "search|1|Mycobacterium tuberculosis interferon gamma release": [
+  [
+   "46217-6",
+   "Mycobacterium tuberculosis stimulated gamma interferon release by CD4+ T-cells [Units/volume] in Blood"
+  ]
+ ],
+ "search|1|Neuropsychological testing": [],
+ "search|1|Neutrophil cytoplasmic antibody": [
+  [
+   "108998-6",
+   "Neutrophil cytoplasmic IgG Ab [Measurement] in Serum"
+  ]
+ ],
+ "search|1|Ocular motility study": [],
+ "search|1|Oil red O stain": [
+  [
+   "10798-7",
+   "Microscopic observation [Identifier] in Tissue by Oil red O stain"
+  ]
+ ],
+ "search|1|Ova and parasites identified in Stool": [
+  [
+   "10701-1",
+   "Ova and parasites identified in Stool by Concentration"
+  ]
+ ],
+ "search|1|Pathology report": [
+  [
+   "60568-3",
+   "Pathology synoptic report"
+  ]
+ ],
+ "search|1|Periodic acid Schiff stain": [
+  [
+   "39575-6",
+   "Fungus.microscopic observation [Identifier] in Specimen by Periodic acid-Schiff stain"
+  ]
+ ],
+ "search|1|Physical findings of Abdomen": [
+  [
+   "8694-2",
+   "Physical findings of Abdomen"
+  ]
+ ],
+ "search|1|Physical findings of Bladder": [],
+ "search|1|Physical findings of Bone": [
+  [
+   "11415-7",
+   "Physical findings of Wrist Narrative"
+  ]
+ ],
+ "search|1|Physical findings of Breast": [
+  [
+   "32422-8",
+   "Physical findings of Breast"
+  ]
+ ],
+ "search|1|Physical findings of Cornea": [
+  [
+   "32425-1",
+   "Physical findings of Cornea"
+  ]
+ ],
+ "search|1|Physical findings of Cranial nerves": [
+  [
+   "32426-9",
+   "Physical findings of Nerves.cranial"
+  ]
+ ],
+ "search|1|Physical findings of Face": [
+  [
+   "32432-7",
+   "Physical findings of Face"
+  ]
+ ],
+ "search|1|Physical findings of Fundus": [],
+ "search|1|Physical findings of Genitalia": [
+  [
+   "11431-4",
+   "Physical findings of Genitalia"
+  ]
+ ],
+ "search|1|Physical findings of Joint": [
+  [
+   "32441-8",
+   "Physical findings of Joint"
+  ]
+ ],
+ "search|1|Physical findings of Kidney": [],
+ "search|1|Physical findings of Liver": [
+  [
+   "32447-5",
+   "Physical findings of Liver"
+  ]
+ ],
+ "search|1|Physical findings of Lymph node": [
+  [
+   "32450-9",
+   "Physical findings of Lymph node"
+  ]
+ ],
+ "search|1|Physical findings of Meningeal signs": [],
+ "search|1|Physical findings of Muscle": [
+  [
+   "32455-8",
+   "Physical findings of Muscle tone"
+  ]
+ ],
+ "search|1|Physical findings of Nail": [
+  [
+   "32456-6",
+   "Physical findings of Nail"
+  ]
+ ],
+ "search|1|Physical findings of Neck": [
+  [
+   "11442-1",
+   "Physical findings of Neck"
+  ]
+ ],
+ "search|1|Physical findings of Neck veins": [],
+ "search|1|Physical findings of Neurologic balance and Coordination": [
+  [
+   "8712-2",
+   "Physical findings of Neurologic balance and Coordination"
+  ]
+ ],
+ "search|1|Physical findings of Neurologic deep tendon reflexes": [
+  [
+   "8697-5",
+   "Physical findings of Neurologic deep tendon reflexes"
+  ]
+ ],
+ "search|1|Physical findings of Neurologic motor": [],
+ "search|1|Physical findings of Neurologic sensory": [],
+ "search|1|Physical findings of Nose": [
+  [
+   "8706-4",
+   "Physical findings of Nose"
+  ]
+ ],
+ "search|1|Physical findings of Peripheral vascular system": [],
+ "search|1|Physical findings of Pupil": [
+  [
+   "32466-5",
+   "Physical findings of Pupil"
+  ]
+ ],
+ "search|1|Physical findings of Rectum": [
+  [
+   "8708-0",
+   "Physical findings of Rectum"
+  ]
+ ],
+ "search|1|Physical findings of Spleen": [
+  [
+   "32477-2",
+   "Physical findings of Spleen"
+  ]
+ ],
+ "search|1|Physical findings of Vision": [
+  [
+   "32488-9",
+   "Physical findings of Vision"
+  ]
+ ],
+ "search|1|Physiologic study": [
+  [
+   "72830-3",
+   "US.doppler Extremity arteries - bilateral for physiologic artery study"
+  ]
+ ],
+ "search|1|Pulmonary function study": [
+  [
+   "58477-1",
+   "Pulmonary function study"
+  ]
+ ],
+ "search|1|Refraction study": [
+  [
+   "28631-0",
+   "Visual acuity study"
+  ]
+ ],
+ "search|1|S100 Tissue by Immune stain": [
+  [
+   "10510-6",
+   "S-100 Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Schirmer test": [
+  [
+   "29005-6",
+   "Right eye Tear secretion 2 Schirmer test"
+  ]
+ ],
+ "search|1|Somatosensory evoked potential study": [],
+ "search|1|Special stain": [
+  [
+   "75192-5",
+   "Darkfield exam, DFA, or special stain was performed and test findings [CDC.CS]"
+  ]
+ ],
+ "search|1|Stimulation test": [
+  [
+   "34542-1",
+   "ACTH stimulation test using IV corticosteroids in Serum or Plasma"
+  ]
+ ],
+ "search|1|Stool analysis panel": [
+  [
+   "106062-3",
+   "Enteric pathogen panel - Stool by NAA with probe detection"
+  ]
+ ],
+ "search|1|Streptolysin O antibody": [
+  [
+   "22568-0",
+   "Streptolysin O Ab [Titer] in Serum"
+  ]
+ ],
+ "search|1|Synaptophysin Tissue by Immune stain": [
+  [
+   "10514-8",
+   "Synaptophysin Ag [Presence] in Tissue by Immune stain"
+  ]
+ ],
+ "search|1|Thyroperoxidase antibody": [
+  [
+   "32042-4",
+   "Thyroperoxidase Ab [Presence] in Serum or Plasma"
+  ]
+ ],
+ "search|1|Tissue transglutaminase antibody": [
+  [
+   "110116-1",
+   "Tissue transglutaminase IgA Ab [Measurement] in Serum"
+  ]
+ ],
+ "search|1|Treponema pallidum antibody": [
+  [
+   "73752-8",
+   "Reagin and Treponema pallidum IgG and IgM [Interpretation] in Serum or Plasma"
+  ]
+ ],
+ "search|1|Trichrome stain": [
+  [
+   "6469-1",
+   "Microscopic observation [Identifier] in Stool by Trichrome stain"
+  ]
+ ],
+ "search|1|Tumor marker panel": [
+  [
+   "44906-6",
+   "Homovanillate panel - 24 hour Urine"
+  ]
+ ],
+ "search|1|Visual evoked potential study": [],
+ "search|1|Visual field study": [
+  [
+   "28629-4",
+   "Perimetry study"
+  ]
+ ],
+ "search|1|Whole exome sequence analysis": [
+  [
+   "86205-2",
+   "Whole exome sequence analysis in Blood or Tissue by Molecular genetics method"
+  ]
+ ],
+ "search|1|p53 Tissue by Immune stain": [
+  [
+   "31149-8",
+   "P53 protein Ag/cells in Tissue by Immune stain"
+  ]
+ ]
+}
