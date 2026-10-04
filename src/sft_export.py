@@ -1,4 +1,4 @@
-"""Export sp_consult/v3 trajectories as SFT pairs (state -> reasoning+action)."""
+"""Export trajectories as SFT pairs (state -> reasoning+action)."""
 
 from __future__ import annotations
 
@@ -110,7 +110,7 @@ class _NamedAsset:
 
 
 class ReplayEnv(AssetAliases):
-    """The slice of Env the v3 renderers read back (used / returned_assets /
+    """The slice of Env the renderers read back (used / returned_assets /
     released / verified / asset_aliases), rebuilt from the record. Duck-typed on
     purpose: a real Env would re-execute the episode, and the trajectory already
     carries every delta these lines are made of.
@@ -362,7 +362,7 @@ def main() -> int:
     recs = [
         json.loads(l) for l in a.trajectories.read_text(encoding="utf-8").splitlines() if l.strip()
     ]
-    recs = [r for r in recs if r.get("schema") == "sp_consult/v3"]
+    recs = [r for r in recs if r.get("schema") == "trustmed/consult"]
     rows = {r["pmcid"]: r for r in load_profiles(a.profiles)}
 
     out_path = a.out or a.trajectories.parent / "sft.jsonl"

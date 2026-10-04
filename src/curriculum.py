@@ -110,7 +110,7 @@ def ir_effective(task: dict) -> tuple[int, int]:
 
 
 def fits(caps: dict, ir_workup: int, ir_searches: int) -> bool:
-    """Search consumes BOTH a workup turn and the search budget (sp_consult
+    """Search consumes BOTH a workup turn and the search budget (trustmed
     run loop + validator), so the workup cap must cover their sum.
     """
     return (
@@ -149,7 +149,7 @@ def jitter_caps(sched: dict, task: dict, step: int, seed: int, caps: dict) -> di
 def corrupt_seed_for(task: dict, step: int, seed: int) -> str:
     """Fresh corruption identity per visit: the env contract requires the
     seed to differ across training iterations so case identity never
-    predicts the label (sp_consult Config.corrupt_seed).
+    predicts the label (trustmed Config.corrupt_seed).
     """
     return f"c{_hint(seed, 'cseed', task['pmcid'], step):016x}"
 
@@ -525,8 +525,15 @@ def report(state: dict) -> dict:
     }
 
 
-def _read_jsonl(path: Path) -> list[dict]:
-    return [json.loads(l) for l in Path(path).open(encoding="utf-8") if l.strip()]
+def _read_rows(path: Path) -> list[dict]:
+    """A pool or record file as a list of dicts: parquet or JSONL."""
+    path = Path(path)
+    if path.suffix == ".parquet":
+        import pyarrow.parquet as pq
+
+        return pq.read_table(path).to_pylist()
+    with path.open(encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
 
 
 def main() -> None:
@@ -551,7 +558,7 @@ def main() -> None:
     if a.cmd == "init":
         sched = load_schedule(a.schedule)
         assert a.total_steps % sched["chunk_steps"] == 0, "total steps must be a chunk multiple"
-        state = init_state(_read_jsonl(a.pool), sched, a.seed, a.total_steps)
+        state = init_state(_read_rows(a.pool), sched, a.seed, a.total_steps)
         a.out.mkdir(parents=True, exist_ok=True)
         (a.out / "state.json").write_text(json.dumps(state), encoding="utf-8")
         rep = report(state)
@@ -565,7 +572,7 @@ def main() -> None:
                 print(f"P{pi_ + 1} {k}: admitted {n} vs per-step need ~{need:.1f} {flag}")
     elif a.cmd == "ingest":
         state = json.loads(a.state.read_text(encoding="utf-8"))
-        stats = ingest(state, _read_jsonl(a.records))
+        stats = ingest(state, _read_rows(a.records))
         a.state.write_text(json.dumps(state), encoding="utf-8")
         print(json.dumps(stats))
     elif a.cmd == "emit":

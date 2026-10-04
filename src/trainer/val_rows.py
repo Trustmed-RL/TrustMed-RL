@@ -1,4 +1,4 @@
-"""Validation rows for SpConsultValDataset -- torch-free so it can be unit-tested anywhere."""
+"""Validation rows for TrustMedValDataset -- torch-free so it can be unit-tested anywhere."""
 
 from __future__ import annotations
 
@@ -6,8 +6,14 @@ import json
 from pathlib import Path
 
 
-def read_jsonl(path: Path) -> list[dict]:
-    with Path(path).open(encoding="utf-8") as f:
+def read_rows(path: Path) -> list[dict]:
+    """A task pool as a list of dicts: parquet (the released pools) or JSONL."""
+    path = Path(path)
+    if path.suffix == ".parquet":
+        import pyarrow.parquet as pq
+
+        return pq.read_table(path).to_pylist()
+    with path.open(encoding="utf-8") as f:
         return [json.loads(line) for line in f if line.strip()]
 
 
@@ -24,7 +30,7 @@ def eval_kwargs(sched: dict) -> dict:
 
 def load_val_rows(pool_path: Path, sched: dict, batch_size: int) -> list[dict]:
     """-> rows with `task_kind`, `pmcid`, `env_kwargs` (eval budgets + corruption for corrupt rows)."""
-    rows = read_jsonl(pool_path)
+    rows = read_rows(pool_path)
     if not rows:
         raise ValueError(f"validation pool {pool_path} is empty")
     if batch_size <= 0 or len(rows) % int(batch_size) != 0:
@@ -52,8 +58,8 @@ def load_val_rows(pool_path: Path, sched: dict, batch_size: int) -> list[dict]:
 
 
 def assert_disjoint(val_path: Path, train_path: Path) -> None:
-    v = {r["pmcid"] for r in read_jsonl(val_path)}
-    t = {r["pmcid"] for r in read_jsonl(train_path)}
+    v = {r["pmcid"] for r in read_rows(val_path)}
+    t = {r["pmcid"] for r in read_rows(train_path)}
     if v & t:
         raise ValueError(
             f"validation pool {val_path} shares {len(v & t)} cases with the train pool "

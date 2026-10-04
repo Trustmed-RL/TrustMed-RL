@@ -8,7 +8,7 @@ import os
 import sys
 from pathlib import Path
 
-LH_ROOT = Path(os.environ.get("SP_CONSULT_HOME") or Path(__file__).resolve().parents[1])
+LH_ROOT = Path(os.environ.get("TRUSTMED_HOME") or Path(__file__).resolve().parents[1])
 sys.path.insert(0, str(LH_ROOT))
 
 import curriculum as cur

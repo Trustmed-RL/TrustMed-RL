@@ -1,5 +1,5 @@
-"""Stepwise trainer facade over sp_consult.run_episode — reset()/step() for
-verl-agent-style collectors, with parity BY CONSTRUCTION.
+"""Stepwise trainer facade over environment.run_episode: reset()/step() for verl-agent collectors,
+with parity by construction.
 """
 
 from __future__ import annotations
@@ -60,7 +60,7 @@ def kwargs_to_config(
 
 
 def lexical_outcome_reward(rec: dict, gold: str) -> float:
-    """Judge-free proxy reward: strict normalized match on the final diagnosis. An ontology or lexicon overlay replaces it via SpConsultSession(score_fn=) without touching the session."""
+    """Judge-free proxy reward: strict normalized match on the final diagnosis. An ontology or lexicon overlay replaces it via TrustMedSession(score_fn=) without touching the session."""
     if rec["final"].get("kind") != "final_diagnosis":
         return 0.0
     return (
@@ -91,7 +91,7 @@ def _final_answer(rec: dict) -> str:
 
 
 def ontology_outcome_reward(rec: dict, gold: str) -> float:
-    """D-v2 as a gym score_fn (`judge=ontology`, the fallback/ablation):
+    """The guarded ontology scorer as a gym score_fn (`judge=ontology`, the fallback/ablation):
     deterministic guarded ontology verdict, binary at the CORE bar.
     """
     if not _is_dx(rec):
@@ -210,7 +210,7 @@ class _QueueDoctor:
         return raw
 
 
-class SpConsultSession:
+class TrustMedSession:
     """One episode as a reset()/step() session; rl_mode only (one call = one turn)."""
 
     def __init__(
@@ -224,9 +224,9 @@ class SpConsultSession:
         model_name: str = "policy",
         task_kind: str = None,
     ):
-        assert cfg.rl_mode, "SpConsultSession requires rl_mode (zero retries)"
+        assert cfg.rl_mode, "TrustMedSession requires rl_mode (zero retries)"
         assert task_kind in ("answer", "corrupt", "ook"), (
-            f"SpConsultSession needs task_kind in answer|corrupt|ook, got {task_kind!r}"
+            f"TrustMedSession needs task_kind in answer|corrupt|ook, got {task_kind!r}"
         )
         self.task_kind = task_kind
         self.cfg, self.row, self.patient = cfg, row, patient

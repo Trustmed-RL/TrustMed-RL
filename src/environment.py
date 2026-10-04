@@ -1,4 +1,4 @@
-"""GIGPO-style two-phase SP consultation env + rollout runner (schema v3)."""
+"""Two-phase consultation environment and rollout runner."""
 
 from __future__ import annotations
 
@@ -78,9 +78,9 @@ PROMPT_SHA = hashlib.sha1(
     Path(_prompts_module.__file__).read_text(encoding="utf-8").replace("\r\n", "\n").encode("utf-8")
 ).hexdigest()[:12]
 
-LOG = logging.getLogger("sp_consult")
+LOG = logging.getLogger("trustmed")
 
-ANCHOR_PHASE_BATCH = "v7_phase_batch"
+ANCHOR_PHASE_BATCH = "phase_batch"
 ANCHOR_MODES = (ANCHOR_PHASE_BATCH,)
 
 DELIVER_LEGACY = "legacy"
@@ -456,7 +456,7 @@ def specialist_of(l1: str, category: str) -> str:
         raise KeyError(
             f"no specialist for ({l1!r}, {category!r}): SPECIALIST_OF must be "
             "total over every served (l1, category) pair — add the line to the "
-            "table in sp_consult.py"
+            "table in environment.py"
         ) from None
 
 
@@ -762,7 +762,7 @@ def dept_menu() -> str:
 
 
 def defer_slot_error(payload: Any) -> str | None:
-    """v3 only: reject an abstention whose reason is the prompt's own slot."""
+    """reject an abstention whose reason is the prompt's own slot."""
     slot_err = DEFER_SLOT_ERR
     text = str(payload or "").strip()
     reason = text
@@ -2886,7 +2886,7 @@ def conclude_menu(cfg: Config, searches_done: int = 0, wk_used: int = 0) -> str:
     `defer_module` for the abstention block, `menu_trailer` for the slot
     rule), so the wording of a terminal can never drift between the two menus.
     The begin_workup line the terminal accessor also returns is discarded: the
-    interview is over. Contract 3 only (rl_mode collections); the pv<=2 arms
+    interview is over. Contract 3 only; older arms
     the pv<=2 arms are frozen collections that predate it.
     """
     final_line, _ = terminal_menu_lines(
@@ -4254,7 +4254,7 @@ def run_episode(
         by_verb[t["verb"]] = by_verb.get(t["verb"], 0) + 1
     revealed, total = len(deck["known_facts"]), len(ep.fact_index)
     return {
-        "schema": "sp_consult/v3",
+        "schema": "trustmed/consult",
         "meta": {"pmcid": ep.pmcid},
         "speaker_role": ep.speaker_role,
         "models": {"doctor": doctor.model, "patient": patient.model},
@@ -4357,7 +4357,7 @@ def run_episode(
 
 def summarize(traj_path: Path) -> dict:
     recs = [json.loads(l) for l in traj_path.open(encoding="utf-8")] if traj_path.exists() else []
-    recs = [r for r in recs if r.get("schema") == "sp_consult/v3"]
+    recs = [r for r in recs if r.get("schema") == "trustmed/consult"]
     if not recs:
         return {"episodes": 0}
     m = [r["metrics"] for r in recs]

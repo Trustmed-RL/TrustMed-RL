@@ -1,4 +1,4 @@
-"""sp_consult env package for verl-agent — search-env pattern, thread-backed."""
+"""TrustMed env package for verl-agent: search-env pattern, thread-backed."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from pathlib import Path
 
 import numpy as np
 
-LH_ROOT = Path(os.environ.get("SP_CONSULT_HOME") or Path(__file__).resolve().parents[3])
+LH_ROOT = Path(os.environ.get("TRUSTMED_HOME") or Path(__file__).resolve().parents[3])
 _LH = LH_ROOT
 sys.path.insert(0, str(_LH))
 
@@ -31,7 +31,7 @@ def pick_donor_list(is_train: bool, donor_list, donor_list_val):
     return donor_list
 
 
-class SpConsultMultiThreadEnv:
+class TrustMedMultiThreadEnv:
     """One object owning env_num*group_n live sessions."""
 
     def __init__(self, seed: int, env_num: int, group_n: int, is_train: bool, env_config):
@@ -136,7 +136,7 @@ class SpConsultMultiThreadEnv:
             self.panel = factory(**pkw) if factory else lp.LivePanel(**pkw)
         elif self.judge_mode not in ("ontology", "strict"):
             raise ValueError(
-                f"env.sp_consult.judge must be panel | ontology | strict, got {self.judge_mode!r}"
+                f"env.trustmed.judge must be panel | ontology | strict, got {self.judge_mode!r}"
             )
         self.score_fn = g.score_fn_for(self.judge_mode, self.panel)
         self.pool = ThreadPoolExecutor(max_workers=self.n)
@@ -162,7 +162,7 @@ class SpConsultMultiThreadEnv:
         self.panel_steps = self.out_root / (
             "panel_steps.jsonl" if is_train else "panel_steps_val.jsonl"
         )
-        self.sessions: list[g.SpConsultSession | None] = [None] * self.n
+        self.sessions: list[g.TrustMedSession | None] = [None] * self.n
         self.meta: list[dict] = [{} for _ in range(self.n)]
         self.acc_reward = np.zeros(self.n, dtype=np.float64)
         self.aborted: dict[int, str] = {}
@@ -198,8 +198,8 @@ class SpConsultMultiThreadEnv:
                 raise RuntimeError(
                     f"corruption donor pool unusable: servable donors {counts} -- "
                     f"categories under {self.donor_min_per_category}: {short}. Ship the "
-                    f"donor crops (tools/build_pack.py -> donors_v2.jsonl + DONOR_LIST) or "
-                    f"set +env.sp_consult.donor_min_per_category=0 to run without the "
+                    f"donor crops (tools/build_pack.py -> donors.jsonl + DONOR_LIST) or "
+                    f"set +env.trustmed.donor_min_per_category=0 to run without the "
                     f"image corruption channel being trainable."
                 )
 
@@ -256,7 +256,7 @@ class SpConsultMultiThreadEnv:
         )
 
     def prewarm_openings(self, kwargs: list[dict]) -> int:
-        """Fill the frozen-opening cache once per unique (pmcid, corrupt_seed) before any session boots, mirroring the standalone collector's serial pre-warm (sp_consult.main). Booting the group cold is a first-writer race: nine rollouts find the cache empty, each asks the patient for an opening, and the anchor state s1 they were meant to share never forms."""
+        """Fill the frozen-opening cache once per unique (pmcid, corrupt_seed) before any session boots, mirroring the standalone collector's serial pre-warm (trustmed.main). Booting the group cold is a first-writer race: nine rollouts find the cache empty, each asks the patient for an opening, and the anchor state s1 they were meant to share never forms."""
         uniq: dict[tuple[str, str], dict] = {}
         for kw in kwargs:
             uniq.setdefault((kw["pmcid"], str(kw.get("corrupt_seed", "0"))), kw)
@@ -321,7 +321,7 @@ class SpConsultMultiThreadEnv:
             }
             cfg = self.session_cfg(i, kw)
             patient = self._patient_factory(cfg)
-            sess = g.SpConsultSession(
+            sess = g.TrustMedSession(
                 cfg,
                 self.rows[kw["pmcid"]],
                 patient,
@@ -456,7 +456,7 @@ class SpConsultMultiThreadEnv:
         return {"success_rate": won}
 
     def abort_one(self, i: int, reason: str = "prompt_overflow") -> dict:
-        """End episode i now, without an action. The collector calls this when it could not build the env's prompt (length over data.max_prompt_length under truncation=error, e.g. a gate turn with six composite plates): the session thread gets _ABORT (SpConsultSession.close), no record is written (no terminal happened; the curriculum must not read the visit as evidence) and every later step() pads the env as done. Returns the identity the collector logs."""
+        """End episode i now, without an action. The collector calls this when it could not build the env's prompt (length over data.max_prompt_length under truncation=error, e.g. a gate turn with six composite plates): the session thread gets _ABORT (TrustMedSession.close), no record is written (no terminal happened; the curriculum must not read the visit as evidence) and every later step() pads the env as done. Returns the identity the collector logs."""
         sess = self.sessions[i]
         if sess is not None and not sess._done:
             sess.close()
@@ -510,6 +510,6 @@ def won_for(term: float, outcome_kind: str, task_kind: str | None) -> bool:
     return False
 
 
-def build_sp_consult_envs(seed: int, env_num: int, group_n: int, is_train: bool, env_config):
+def build_trustmed_envs(seed: int, env_num: int, group_n: int, is_train: bool, env_config):
     """Factory the fork's `make_envs` branch calls."""
-    return SpConsultMultiThreadEnv(seed, env_num, group_n, is_train, env_config)
+    return TrustMedMultiThreadEnv(seed, env_num, group_n, is_train, env_config)

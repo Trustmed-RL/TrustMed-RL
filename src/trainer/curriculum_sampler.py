@@ -10,15 +10,21 @@ from pathlib import Path
 import torch
 from torch.utils.data import Dataset, Sampler
 
-LH_ROOT = Path(os.environ.get("SP_CONSULT_HOME") or Path(__file__).resolve().parents[1])
+LH_ROOT = Path(os.environ.get("TRUSTMED_HOME") or Path(__file__).resolve().parents[1])
 sys.path.insert(0, str(LH_ROOT))
 
 import curriculum as cur
 import trainer.plan_store as ps
 
 
-def _read_jsonl(path: Path) -> list[dict]:
-    return [json.loads(l) for l in Path(path).open(encoding="utf-8") if l.strip()]
+def _read_rows(path: Path) -> list[dict]:
+    """A task pool as a list of dicts: parquet (the released pools) or JSONL."""
+    path = Path(path)
+    if path.suffix == ".parquet":
+        import pyarrow.parquet as pq
+
+        return pq.read_table(path).to_pylist()
+    return [json.loads(l) for l in path.open(encoding="utf-8") if l.strip()]
 
 
 class CurriculumPlan:
@@ -37,7 +43,7 @@ class CurriculumPlan:
         self.records_path = Path(records_path)
         self.state_dir = Path(state_dir)
         self.state_dir.mkdir(parents=True, exist_ok=True)
-        self.state = cur.init_state(_read_jsonl(Path(pool_path)), self.sched, seed, total_steps)
+        self.state = cur.init_state(_read_rows(Path(pool_path)), self.sched, seed, total_steps)
         self._records_seen = 0
         self._plan: list[dict] = []
         self._emitted_chunks = 0
@@ -61,7 +67,7 @@ class CurriculumPlan:
         one is missing) and rebuild the curriculum state from the records of steps < global_step
         only -- records after it belong to a segment being rolled back and are never read.
         """
-        recs = _read_jsonl(self.records_path) if self.records_path.exists() else []
+        recs = _read_rows(self.records_path) if self.records_path.exists() else []
         lineage = ps.load_lineage(self.state_dir.parent / "lineage.json")
         res = ps.resync(
             self.state,
@@ -91,7 +97,7 @@ class CurriculumPlan:
     def _ingest_new(self) -> None:
         if not self.records_path.exists():
             return
-        recs = _read_jsonl(self.records_path)
+        recs = _read_rows(self.records_path)
         if len(recs) > self._records_seen:
             lineage = ps.load_lineage(self.state_dir.parent / "lineage.json")
             fresh = recs[self._records_seen :]
@@ -118,7 +124,7 @@ class CurriculumPlan:
         return r
 
 
-class SpConsultRLDataset(Dataset):
+class TrustMedRLDataset(Dataset):
     """Plan-backed dataset. Construct with an explicit CurriculumPlan; the fork's `create_rl_dataset` custom_cls hook passes (data_paths, tokenizer, processor, config) and a thin adapter builds the plan from config keys and calls this."""
 
     def __init__(self, plan: CurriculumPlan, tokenizer=None, max_prompt_length: int = 16):
@@ -133,7 +139,7 @@ class SpConsultRLDataset(Dataset):
         r = self.plan.row(i)
         L = self.max_prompt_length
         pad = int(getattr(self.tokenizer, "pad_token_id", 0) or 0)
-        marker = f"sp_consult:{r['task_kind']}"
+        marker = f"trustmed:{r['task_kind']}"
         if self.tokenizer is not None:
             ids = list(self.tokenizer.encode(marker, add_special_tokens=False))
         else:
@@ -152,7 +158,7 @@ class SpConsultRLDataset(Dataset):
             "position_ids": position_ids,
             "raw_prompt_ids": list(ids),
             "raw_prompt": [{"role": "user", "content": marker}],
-            "data_source": "sp_consult",
+            "data_source": "trustmed",
             "index": i,
             "pmcid": r["pmcid"],
             "task_kind": r["task_kind"],
@@ -162,7 +168,7 @@ class SpConsultRLDataset(Dataset):
         }
 
 
-class SpConsultValDataset(Dataset):
+class TrustMedValDataset(Dataset):
     """Static validation set: validation never iterates the adaptive training plan (pulling future rows would emit later chunks from early records and freeze the curriculum). All rows of a PMCID-disjoint validation pool, each with its true task_kind (corrupt rows live, fixed corrupt_seed) at the schedule's frozen eval budgets, r_ook at the ramp end; the row count must be a multiple of the val batch size (`n`); `set_step` stamps the trainer step so trajectories_val.jsonl records name the checkpoint that produced them. Same tensor placeholders as the train dataset."""
 
     def __init__(
@@ -187,7 +193,7 @@ class SpConsultValDataset(Dataset):
         r = self.rows[i]
         L = self.max_prompt_length
         pad = int(getattr(self.tokenizer, "pad_token_id", 0) or 0)
-        marker = f"sp_consult_val:{r.get('task_kind', 'answer')}"
+        marker = f"trustmed_val:{r.get('task_kind', 'answer')}"
         ids = (
             list(self.tokenizer.encode(marker, add_special_tokens=False))
             if self.tokenizer is not None
@@ -203,7 +209,7 @@ class SpConsultValDataset(Dataset):
             "position_ids": position_ids,
             "raw_prompt_ids": list(ids),
             "raw_prompt": [{"role": "user", "content": marker}],
-            "data_source": "sp_consult",
+            "data_source": "trustmed",
             "index": i,
             "pmcid": r["pmcid"],
             "task_kind": r["task_kind"],

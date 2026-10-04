@@ -37,7 +37,7 @@ ALL_JUDGES: dict[str, dict] = {**PANEL, **PANEL_V2}
 
 
 def judge_spec(judge: str) -> dict:
-    """The spec of any registered judge (frozen v1 panel or v2), or a clear
+    """The spec of any registered judge , or a clear
     refusal — never a silent default.
     """
     try:

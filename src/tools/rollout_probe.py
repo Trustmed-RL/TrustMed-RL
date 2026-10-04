@@ -1,4 +1,4 @@
-"""Dump one real N-rollout GiGPO batch and check four wiring invariants: (1) terminal row, the terminal scalar is added to the last step's reward; (2) anchor timing, an anchor per turn, the group shares s1 and collides on a shared post-decision state; (3) group IDs, every rollout of one visit shares episode_group_uid and a different visit is a different group; (4) advantage placement, the reference A^E + A^S per step (tools/gigpo_sim) that the fork's token-level tensor must match. Drives the real env the fork drives (SpConsultMultiThreadEnv) with a pluggable policy: POLICY_URL set -> an OpenAI-compatible chat endpoint, else a scripted deterministic policy; the patient is served when PATIENT_URL is set, else scripted; judge `ontology`."""
+"""Dump one real N-rollout GiGPO batch and check four wiring invariants: (1) terminal row, the terminal scalar is added to the last step's reward; (2) anchor timing, an anchor per turn, the group shares s1 and collides on a shared post-decision state; (3) group IDs, every rollout of one visit shares episode_group_uid and a different visit is a different group; (4) advantage placement, the reference A^E + A^S per step (tools/gigpo_sim) that the fork's token-level tensor must match. Drives the real env the fork drives (TrustMedMultiThreadEnv) with a pluggable policy: POLICY_URL set -> an OpenAI-compatible chat endpoint, else a scripted deterministic policy; the patient is served when PATIENT_URL is set, else scripted; judge `ontology`."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ sys.path.insert(0, str(LH))
 
 import rewards as gx
 import tools.advantage_reference as sim
-from trainer.env_package.sp_consult import envs as E
+from trainer.env_package.trustmed import envs as E
 
 OPEN = json.dumps(
     {"answer": "The cough started weeks ago.", "used_fact_ids": [], "unknown_topics": []}
@@ -99,7 +99,7 @@ def run_batch(pmcid: str, group_n: int, out: Path, profiles: Path) -> dict:
     )
     from types import SimpleNamespace
 
-    env = E.SpConsultMultiThreadEnv(
+    env = E.TrustMedMultiThreadEnv(
         seed=1, env_num=1, group_n=group_n, is_train=True, env_config=SimpleNamespace(**ec)
     )
     if not os.environ.get("PATIENT_URL"):

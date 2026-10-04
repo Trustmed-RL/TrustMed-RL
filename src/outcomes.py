@@ -1,4 +1,4 @@
-"""Backfill the sparse OUTCOME reward onto sp_consult/v3 trajectory records."""
+"""Backfill the sparse OUTCOME reward onto trajectory records."""
 
 from __future__ import annotations
 
@@ -79,7 +79,7 @@ def _is_non_diagnosis(text: str) -> bool:
     return normalize(primary) in NON_DIAGNOSES
 
 
-DX_SCORER_ONTOLOGY = "ontology_v3"
+DX_SCORER_ONTOLOGY = "ontology"
 
 GENERIC_TOKENS = frozenset(
     """
@@ -172,7 +172,7 @@ def _is_hedge_list(gt: str, pred: str, check) -> bool:
 
 
 def ontology_outcome_detail(gt: str, pred: str, check=None) -> dict:
-    """The D-v2 verdict with its reason — for records, canaries and tests.
+    """The guarded ontology verdict with its reason — for records, canaries and tests.
     `check` overrides `ontology_local.check_pair` (the suites pass a canned
     one; live_panel passes its own so live and eval share one backend).
     """
@@ -233,7 +233,7 @@ def ontology_outcome_detail(gt: str, pred: str, check=None) -> dict:
 
 
 def ontology_outcome_score(gt: str, pred: str) -> float:
-    """score(gt, pred) -> 0.0 | 1.0 — the D-v2 guarded ontology scorer."""
+    """score(gt, pred) -> 0.0 | 1.0 — the guarded ontology scorer."""
     return float(ontology_outcome_detail(gt, pred)["score"])
 
 
@@ -548,7 +548,7 @@ def main() -> int:
         choices=("lexical", "ontology", "judge"),
         default="lexical",
         help="lexical (default): substring/Jaccard smoke grader; "
-        "ontology: the D-v2 guarded ontology scorer (binary at "
+        "ontology: the guarded ontology scorer (binary at "
         "the CORE bar, needs ontology_local.db); judge: "
         "--judge-module",
     )

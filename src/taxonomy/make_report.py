@@ -98,7 +98,7 @@ def main():
         json.dump(space, fh, indent=2, ensure_ascii=False)
 
     L = []
-    L.append("# OSCE action-space taxonomy — `gpt-5.6-terra` / `run15k`\n")
+    L.append("# OSCE action-space taxonomy\n")
     L.append(
         f"Source: `profiles.parquet`, **{N:,} OSCE cases** (one case = one PMC case report).\n"
     )

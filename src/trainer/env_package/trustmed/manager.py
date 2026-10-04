@@ -1,4 +1,4 @@
-"""EnvironmentManager for sp_consult (verl-agent fork side)."""
+"""EnvironmentManager for trustmed (verl-agent fork side)."""
 
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ def _decode_parts(multi_modal) -> list:
     return imgs
 
 
-class SpConsultEnvironmentManager(EnvironmentManagerBase):
+class TrustMedEnvironmentManager(EnvironmentManagerBase):
     def __init__(self, envs, projection_f, config):
         super().__init__(envs, projection_f, config)
 
@@ -70,6 +70,6 @@ class SpConsultEnvironmentManager(EnvironmentManagerBase):
         return self._pack(next_obs, infos=infos), rewards, dones, infos
 
     def abort_one(self, i: int, reason: str = "prompt_overflow") -> dict:
-        """The collector could not build env i's prompt (over data.max_prompt_length, truncation=error): end that episode without an action. Forwards to SpConsultMultiThreadEnv.abort_one; every later step() pads env i as done."""
+        """The collector could not build env i's prompt (over data.max_prompt_length, truncation=error): end that episode without an action. Forwards to TrustMedMultiThreadEnv.abort_one; every later step() pads env i as done."""
         fn = getattr(self.envs, "abort_one", None)
         return fn(i, reason) if fn is not None else {}

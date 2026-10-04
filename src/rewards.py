@@ -1,4 +1,4 @@
-"""Export scored sp_consult/v3 trajectories as GiGPO step records."""
+"""Export scored trajectories as GiGPO step records."""
 
 from __future__ import annotations
 
@@ -373,12 +373,12 @@ def main() -> int:
     )
     ap.add_argument(
         "--reward-scheme",
-        choices=("legacy", "board", "v3"),
+        choices=("legacy", "board"),
         default="legacy",
         help="legacy: turn rewards + gate engine reward + outcome. "
         "board: one terminal scalar by outcome_kind from the "
         "reward board, gate engine rewards recorded but not "
-        "trained on (v3 = the board's old name)",
+        "trained on",
     )
     ap.add_argument(
         "--r-mismatch",
@@ -491,7 +491,7 @@ def main() -> int:
             raise SystemExit(str(e))
 
     recs = [json.loads(l) for l in a.records.read_text(encoding="utf-8").splitlines() if l.strip()]
-    recs = [r for r in recs if r.get("schema") == "sp_consult/v3"]
+    recs = [r for r in recs if r.get("schema") == "trustmed/consult"]
     mixed = assert_uniform_scorers(recs, allow_mixed=a.allow_mixed_scorers)
     if mixed:
         print(

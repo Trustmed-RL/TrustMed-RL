@@ -29,9 +29,9 @@ from judge.panel import (
 )
 from judge.prompt import judge_prompt
 
-DX_SCORER_PANEL = "panel_live_v4"
+DX_SCORER_PANEL = "panel_live"
 DEFAULT_JUDGES = ("gpt-4.1-mini",)
-DX_SCORER_FALLBACK = "ontology_fallback_v2"
+DX_SCORER_FALLBACK = "ontology_fallback"
 DEFAULT_BAR = 0.85
 PRICES_PER_M: dict[str, tuple[float, float]] = {
     "gpt-4.1-mini": (0.40, 1.60),
