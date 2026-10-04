@@ -132,12 +132,9 @@ def usage_cost(model: str, usage: dict | None) -> float:
 
 
 def rubric_sha() -> str:
-    from judge.prompt import RL_RUBRIC_ADDENDUM
-    from judge.rubric import _JUDGE_INSTRUCTIONS
+    from judge.rubric import JUDGE_INSTRUCTIONS
 
-    return hashlib.sha256((_JUDGE_INSTRUCTIONS + RL_RUBRIC_ADDENDUM).encode("utf-8")).hexdigest()[
-        :16
-    ]
+    return hashlib.sha256(JUDGE_INSTRUCTIONS.encode("utf-8")).hexdigest()[:16]
 
 
 _DB_DIGEST: str | None = None

@@ -190,7 +190,6 @@ def init_state(pool_rows: list[dict], sched: dict, seed: int, total_steps: int) 
             "ingested": [],
         }
     return {
-        "version": 1,
         "seed": seed,
         "total_steps": total_steps,
         "overflow_excluded": overflow,

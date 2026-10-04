@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 import sys as _sys
 
 _sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from judge.prompt import judge_prompt
 
 load_dotenv()
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
@@ -25,70 +26,6 @@ def extract_diagnosis(text: str) -> str | None:
         return None
     match = re.search(r"\[DIAGNOSIS:\s*(.+?)\]", text, re.IGNORECASE)
     return match.group(1).strip() if match else None
-
-
-_JUDGE_INSTRUCTIONS = """
-You are a medical expert evaluating a predicted diagnosis against a ground-truth diagnosis.
-
-Ground truth:
-{ground_truth}
-
-Prediction:
-{predicted}
-
-### 1. Identify conditions
-
-Identify all distinct medical conditions in the ground truth and prediction.
-
-Count conditions by clinical meaning, not wording. Do not treat subtype, site, etiology, pathology, grade, stage, severity, or complication as a separate condition unless it is an independent diagnosis.
-
-### 2. Match conditions
-
-Match conditions one-to-one using the best overall assignment. Each condition can be matched at most once.
-
-Classify each matched pair as:
-
-* FULL: Same fully specified disease. Synonyms, abbreviations, spelling variants, and clinically equivalent wording count as FULL.
-
-* CORE: captures core disease, but one or more clinically relevant qualifiers are missing or incorrect, such as subtype, site, etiology, pathology, severity, grade, stage, or complication.
-
-For example:
-{
-"ground_truth": "Erysipelothrix bacteremia with endocarditis",
-"predicted": "Erysipelothrix rhusiopathiae bacteremia",
-"level": "core"
-}
-{
-"ground_truth": "Catastrophic antiphospholipid syndrome",
-"predicted": "Antiphospholipid syndrome",
-"level": "core"
-},
-
-* PARTIAL: The core disease is not fully identified, but the prediction correctly identifies a meaningful component of the ground-truth diagnosis, such as an organism, complication, manifestation, or syndrome component.
-
-A match requires either the same core disease or a specific component of the ground-truth diagnosis.
-
-
-### 3. Output
-
-Return only valid JSON using this format:
-
-{
-"gt_count": int,
-"pred_count": int,
-"matches": [
-{
-"ground_truth": "",
-"predicted": "",
-"level": ""
-},
-]
-}
-
-Report the number of distinct ground-truth and predicted conditions in "gt_count" and "pred_count".
-Level must be one of "full", "core", or "partial".
-Include only valid matched pairs in "matches". Unmatched conditions should not appear in "matches".
-"""
 
 
 def score_judge_result(
@@ -327,10 +264,6 @@ GPT5_REASONING_EFFORT = "low"
 GPT5_MAX_COMPLETION_TOKENS = 2000
 
 
-def _user_content(predicted: str, ground_truth: str) -> str:
-    return f"Ground truth diagnosis: {ground_truth}\nPredicted diagnosis: {predicted}"
-
-
 def _parse_judge_result(response: str) -> dict | None:
     """Raw judge text -> the rubric's dict with `matches`, or None."""
     text = (response or "").strip()
@@ -397,8 +330,7 @@ def _call_openai(client, model: str, predicted: str, ground_truth: str) -> str:
     resp = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": _JUDGE_INSTRUCTIONS},
-            {"role": "user", "content": _user_content(predicted, ground_truth)},
+            {"role": "user", "content": judge_prompt(ground_truth, predicted)},
         ],
         max_tokens=JUDGE_MAX_TOKENS,
         temperature=JUDGE_TEMPERATURE,
@@ -414,8 +346,7 @@ def _call_gpt5(client, model: str, predicted: str, ground_truth: str) -> str:
     resp = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": _JUDGE_INSTRUCTIONS},
-            {"role": "user", "content": _user_content(predicted, ground_truth)},
+            {"role": "user", "content": judge_prompt(ground_truth, predicted)},
         ],
         max_completion_tokens=GPT5_MAX_COMPLETION_TOKENS,
         reasoning_effort=GPT5_REASONING_EFFORT,
@@ -479,8 +410,7 @@ def _openai_batch_submit(client, model: str, items: list[tuple[str, str, str]]) 
                     "body": {
                         "model": model,
                         "messages": [
-                            {"role": "system", "content": _JUDGE_INSTRUCTIONS},
-                            {"role": "user", "content": _user_content(predicted, ground_truth)},
+                            {"role": "user", "content": judge_prompt(ground_truth, predicted)},
                         ],
                         "max_tokens": JUDGE_MAX_TOKENS,
                         "temperature": JUDGE_TEMPERATURE,

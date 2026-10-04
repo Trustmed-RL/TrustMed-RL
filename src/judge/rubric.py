@@ -1,4 +1,4 @@
-_JUDGE_INSTRUCTIONS = """
+JUDGE_INSTRUCTIONS = """
 You are a medical expert evaluating a predicted diagnosis against a ground-truth diagnosis.
 
 Ground truth:
@@ -59,6 +59,35 @@ Return only valid JSON using this format:
 Report the number of distinct ground-truth and predicted conditions in "gt_count" and "pred_count".
 Level must be one of "full", "core", or "partial".
 Include only valid matched pairs in "matches". Unmatched conditions should not appear in "matches".
+
+
+### 4. Strict entity rule
+
+Include a pair in "matches" only when the prediction and the ground truth name
+the SAME disease entity. Two DIFFERENT diseases of the same organ, system, or
+histologic category are NOT a match at any level -- leave such a pair out of
+"matches" entirely.
+
+Still the same entity -- match it normally under the rubric above:
+* synonyms and abbreviations (pancreatic neuroendocrine tumor = neuroendocrine
+  neoplasm of the pancreas), spelling variants
+* a site, form, or qualifier variant of one disease (ocular tuberculosis vs
+  tuberculosis = core; ectopic thyroid vs congenital thyroid malformation = core)
+* a specific disease against a generic ground-truth category it belongs to by
+  disease classification, not merely by location (primary cardiac angiosarcoma
+  vs rare cardiac tumor = core)
+
+Different entities -- never a match, at any level:
+* glioma, astrocytoma, medulloblastoma, or ependymoma vs meningioma
+* leukemias of a different lineage or tempo: AML vs ALL, AML vs CML, AML vs CMML
+* gastrointestinal stromal tumor (GIST) vs leiomyosarcoma, or vs a
+  neuroendocrine tumor
+* Best vitelliform macular dystrophy vs Stargardt disease
+* cholangiocarcinoma vs biliary cystadenocarcinoma
+* Kaposi sarcoma vs Castleman disease
+
+Sharing anatomy, imaging appearance, or a differential-diagnosis list does not
+make two different diseases a match.
 """
 
 

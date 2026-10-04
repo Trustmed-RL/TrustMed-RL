@@ -8,7 +8,7 @@ import re
 from statistics import fmean
 from typing import Callable
 
-from judge.rubric import _JUDGE_INSTRUCTIONS, compute_diagnosis_reward
+from judge.rubric import JUDGE_INSTRUCTIONS, compute_diagnosis_reward
 
 JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "gpt-5-mini")
 JUDGE_SAMPLES = 3
@@ -41,41 +41,9 @@ def _default_sample(prompt: str) -> str:
     return rsp.choices[0].message.content or ""
 
 
-RL_RUBRIC_ADDENDUM = """
-
-### 4. Strict entity rule
-
-Include a pair in "matches" only when the prediction and the ground truth name
-the SAME disease entity. Two DIFFERENT diseases of the same organ, system, or
-histologic category are NOT a match at any level -- leave such a pair out of
-"matches" entirely.
-
-Still the same entity -- match it normally under the rubric above:
-* synonyms and abbreviations (pancreatic neuroendocrine tumor = neuroendocrine
-  neoplasm of the pancreas), spelling variants
-* a site, form, or qualifier variant of one disease (ocular tuberculosis vs
-  tuberculosis = core; ectopic thyroid vs congenital thyroid malformation = core)
-* a specific disease against a generic ground-truth category it belongs to by
-  disease classification, not merely by location (primary cardiac angiosarcoma
-  vs rare cardiac tumor = core)
-
-Different entities -- never a match, at any level:
-* glioma, astrocytoma, medulloblastoma, or ependymoma vs meningioma
-* leukemias of a different lineage or tempo: AML vs ALL, AML vs CML, AML vs CMML
-* gastrointestinal stromal tumor (GIST) vs leiomyosarcoma, or vs a
-  neuroendocrine tumor
-* Best vitelliform macular dystrophy vs Stargardt disease
-* cholangiocarcinoma vs biliary cystadenocarcinoma
-* Kaposi sarcoma vs Castleman disease
-
-Sharing anatomy, imaging appearance, or a differential-diagnosis list does not
-make two different diseases a match.
-"""
-
-
 def judge_prompt(gt: str, pred: str) -> str:
     """The rubric with its two slots filled."""
-    t = (_JUDGE_INSTRUCTIONS + RL_RUBRIC_ADDENDUM).replace("{", "{{").replace("}", "}}")
+    t = JUDGE_INSTRUCTIONS.replace("{", "{{").replace("}", "}}")
     t = t.replace("{{ground_truth}}", "{ground_truth}").replace("{{predicted}}", "{predicted}")
     return t.format(ground_truth=gt, predicted=pred)
 
