@@ -475,7 +475,7 @@ def main() -> int:
         "--blind-cap-mode",
         choices=BLIND_CAP_MODES,
         default=None,
-        help="blind_cap predicate version (PC2): "
+        help="blind_cap predicate: "
         "'incomplete_coverage' exempts an armed-unbound "
         "episode whose measured image coverage is exactly "
         "1.0. Omit = each record's own recorded mode "

@@ -46,8 +46,9 @@ def _norm(values: list[float], mode: str, std_floor: float = 0.1) -> list[float]
 
 
 def record_pen_local(rec: dict, knobs: dict | None = None) -> bool:
-    """Which charging path a stored record was trained under: its own budgets stamp wins; a launch_knobs.json PEN_LOCAL is the
-    fallback for records that predate the stamp; absent everywhere = the pre-v5 global path.
+    """Which charging path a stored record was trained under: its own budgets stamp wins; a
+    launch_knobs.json PEN_LOCAL is the fallback for records that predate the stamp; absent
+    everywhere = the global path.
     """
     b = rec.get("budgets") or {}
     if "local_penalty" in b:

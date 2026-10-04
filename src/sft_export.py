@@ -31,7 +31,7 @@ from prompts import GATE_TEMPLATE
 _ID = r"[A-Za-z0-9_.-]+"
 ASSET_RE = re.compile(rf"\[image ({_ID}) attached")
 RETURN_RE = re.compile(rf"^(.+?) — (.*?): \[image ({_ID}) attached", re.MULTILINE)
-RETURN_RE_V2 = re.compile(
+RETURN_RE_SHARED = re.compile(
     rf"^(.+?) — (.*?): \[(?:image ({_ID}) attached|same image as ({_ID}) above)", re.MULTILINE
 )
 
@@ -43,7 +43,7 @@ def returned_lines(obs: str, unalias: dict[str, str] | None = None) -> list[tupl
     rev = unalias or {}
     return [
         (cat, name, rev.get(a1 or a2, a1 or a2))
-        for cat, name, a1, a2 in RETURN_RE_V2.findall(obs or "")
+        for cat, name, a1, a2 in RETURN_RE_SHARED.findall(obs or "")
     ]
 
 

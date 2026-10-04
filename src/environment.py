@@ -93,10 +93,6 @@ PENDING_LINE = "[image pending — delivered with the next integrity check]"
 NOT_DELIVERED_LINE = "[image not delivered this order — re-order to view]"
 ANCHOR_MODE_DEFAULT = ANCHOR_PHASE_BATCH
 
-PROMPT_VERSION = 3
-PROMPT_CONTRACT = 3
-MENU_VERSION = 2
-SERVING_VERSION = 2
 
 PANEL_POLICIES = ("whole_figure", "crops_only", "strict")
 
@@ -632,9 +628,8 @@ def no_diagnosis_final(text: str) -> bool:
 
 
 def no_dx_contract(cfg: "Config") -> str:
-    """What this Config stamps into budgets["no_dx_final"]: "reject" when the
-    validator branch is live (pv3 + contract 3), "accept" for the frozen v<=2
-    arms, whose behaviour the rule leaves untouched.
+    """What this Config stamps into budgets["no_dx_final"]: "reject", a final that names no
+    disease is refused at emission.
     """
     return "reject"
 
@@ -747,9 +742,7 @@ _PE_MENU = ", ".join(PE_ORDER_NAMES)
 
 
 def test_menu() -> str:
-    """The L1: categories block, in the pair order of this menu version. v1 is
-    byte-identical to the frozen line-per-L1 rendering it always was.
-    """
+    """The L1 categories block, in the pair order of the menu."""
     by_l1: dict[str, list[str]] = {}
     for pair in TEST_PAIRS_MENU:
         l1, _, l2 = pair.partition("/")
@@ -2811,7 +2804,7 @@ def workup_menu(
 
 
 def workup_rules(cfg: Config, wk_used: int) -> str:
-    """The pv3 rules block: full on the first workup turn, brief afterwards —
+    """The rules block: full on the first workup turn, brief afterwards,
     plus INTEGRITY_LINE as its own trailing paragraph on BOTH.
     """
     base = WORKUP_RULES_FULL if wk_used == 0 else WORKUP_RULES_BRIEF
@@ -2886,8 +2879,7 @@ def conclude_menu(cfg: Config, searches_done: int = 0, wk_used: int = 0) -> str:
     `defer_module` for the abstention block, `menu_trailer` for the slot
     rule), so the wording of a terminal can never drift between the two menus.
     The begin_workup line the terminal accessor also returns is discarded: the
-    interview is over. Contract 3 only; older arms
-    the pv<=2 arms are frozen collections that predate it.
+    interview is over.
     """
     final_line, _ = terminal_menu_lines(
         cfg, "workup", cfg.min_asks, wk_used, searches_done, must_end=True
@@ -4261,9 +4253,6 @@ def run_episode(
         "budgets": {
             "max_asks": cfg.max_asks,
             "min_asks": cfg.min_asks,
-            "prompt_version": PROMPT_VERSION,
-            "prompt_contract": PROMPT_CONTRACT,
-            "serving_version": SERVING_VERSION,
             "allow_history_final": cfg.allow_history_final,
             "allow_defer": cfg.allow_defer,
             "integrity_hint": cfg.integrity_hint,
@@ -4278,7 +4267,6 @@ def run_episode(
             ),
             "panel_policy": (cfg.panel_policy if cfg.panel_assets else None),
             "corrupt_axis": cfg.corrupt_axis,
-            "menu_version": MENU_VERSION,
             "post_baseline": cfg.post_baseline,
             "identity_anchor": cfg.identity_anchor,
             "max_searches": cfg.max_searches,
@@ -4486,7 +4474,7 @@ def main() -> None:
         "--no-integrity-hint",
         dest="integrity_hint",
         action="store_false",
-        help='pv3 ablation: drop the "verify every result belongs '
+        help='Ablation: drop the "verify every result belongs '
         'to THIS patient and THIS order" line from the workup '
         "rules, so a mismatch catch measures internalized "
         "vigilance instead of instruction-following",

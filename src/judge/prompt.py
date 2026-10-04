@@ -43,7 +43,7 @@ def _default_sample(prompt: str) -> str:
 
 RL_RUBRIC_ADDENDUM = """
 
-### 4. Strict entity rule (RL addendum v1.1, 2026-09-02)
+### 4. Strict entity rule
 
 Include a pair in "matches" only when the prediction and the ground truth name
 the SAME disease entity. Two DIFFERENT diseases of the same organ, system, or

@@ -376,7 +376,7 @@ class LivePanel:
     def _normalize(judge: str) -> bool:
         """A `parse: "normalized"` judge is read by the parser ITS VALIDATION USED
         (`panel_judge.normalize_reply`: reasoning stripped, the fenced object taken,
-        an explicit no-match row dropped). v1 judges keep the production read.
+        an explicit no-match row dropped). Other judges keep the production read.
         """
         return judge_spec(judge).get("parse") == "normalized"
 

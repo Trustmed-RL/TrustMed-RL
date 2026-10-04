@@ -46,7 +46,7 @@ class LocalOntology:
         if not self.db_path.exists():
             raise FileNotFoundError(
                 f"{self.db_path} not found — set TRUSTMED_ONTOLOGY_DB to an ontology_local.db "
-                "(the trustmed-full-pack-v4 dataset ships one with its sha256) or build it with "
+                "or build it with "
                 "build_ontology_db.py (sources download keyless)"
             )
         self._local = threading.local()

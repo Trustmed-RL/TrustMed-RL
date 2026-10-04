@@ -30,10 +30,10 @@ HELD_OUT: dict[str, dict] = {
 }
 
 
-PANEL_V2: dict[str, dict] = {
-    "gpt-5-mini-v2": {"provider": "openai_reasoning", "model": "gpt-5-mini", "parse": "normalized"},
+PANEL_REASONING: dict[str, dict] = {
+    "gpt-5-mini": {"provider": "openai_reasoning", "model": "gpt-5-mini", "parse": "normalized"},
 }
-ALL_JUDGES: dict[str, dict] = {**PANEL, **PANEL_V2}
+ALL_JUDGES: dict[str, dict] = {**PANEL, **PANEL_REASONING}
 
 
 def judge_spec(judge: str) -> dict:
