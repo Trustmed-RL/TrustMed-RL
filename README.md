@@ -41,7 +41,7 @@ src/
 ## Images
 
 Figures, panel crops and panel groups for every case report in the corpus are on Hugging Face
-(badge above); the 8,453 cases in `data/` are flagged `in_release`, with `case_splits` naming their tables.
+(badge above); the 8,453 cases in `data/` are flagged `in_release`.
 `image.parquet` has one row per image: the panel annotations, the PMC caption, and the id of the parent
 figure. `materialize.py` from that repo recreates the directory trees the environment reads:
 
