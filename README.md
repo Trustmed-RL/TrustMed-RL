@@ -1,12 +1,12 @@
 # TrustMed-RL
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Images-49%2C791%20assets%20%C2%B7%208%2C453%20cases-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face: 49,791 assets from 8,453 cases"></a>
+  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Images-85%2C581%20assets%20%C2%B7%2014%2C995%20cases-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face: 85,581 assets from 14,995 cases"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Retrieval%20corpus-29.2M%20PubMed%20records%20%2B%20Wikipedia-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face: 29.2M PubMed records plus medical Wikipedia"></a>
 </p>
 <p align="center">
-  <sub>49,791 annotated medical images from 8,453 open-access case reports (4.2 GB) &middot; 29.2M-record PubMed + medical Wikipedia corpus with prebuilt BM25 and FAISS indexes &middot; 2,500-case frozen test set &middot; 23,161 SFT pairs and 4,438 RL training cases</sub>
+  <sub>85,581 medical images from all 14,995 open-access case reports in the corpus (7.5 GB), including 49,791 annotated medical images from 8,453 case reports used for train, val, and test &middot; 29.2M-record PubMed + medical Wikipedia corpus with prebuilt BM25 and FAISS indexes &middot; 2,500-case frozen test set &middot; 23,161 SFT pairs and 4,438 RL training cases</sub>
 </p>
 
 Code and data for TrustMed-RL. The environment turns an open-access case report into a multi-turn
@@ -37,7 +37,8 @@ src/
 
 ## Images
 
-Figures, panel crops and panel groups for the cases in `data/` are on Hugging Face (badge above).
+Figures, panel crops and panel groups for all 14,995 case reports in the corpus are on Hugging Face
+(badge above); the 8,453 cases in `data/` are flagged `in_release`, with `case_splits` naming their tables.
 `image.parquet` has one row per image: the panel annotations, the PMC caption, and the id of the parent
 figure. `materialize.py` from that repo recreates the directory trees the environment reads:
 
