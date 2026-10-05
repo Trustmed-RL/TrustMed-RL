@@ -1,8 +1,12 @@
 # TrustMed-RL
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Images-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face"></a>
-  <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Retrieval%20corpus-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face"></a>
+  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Images-49%2C791%20assets%20%C2%B7%208%2C453%20cases-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face: 49,791 assets from 8,453 cases"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Retrieval%20corpus-29.2M%20PubMed%20records%20%2B%20Wikipedia-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face: 29.2M PubMed records plus medical Wikipedia"></a>
+</p>
+<p align="center">
+  <sub>49,791 annotated medical images from 8,453 open-access case reports (4.2 GB) &middot; 29.2M-record PubMed + medical Wikipedia corpus with prebuilt BM25 and FAISS indexes &middot; 2,500-case frozen test set &middot; 23,161 SFT pairs and 4,438 RL training cases</sub>
 </p>
 
 Code and data for TrustMed-RL. The environment turns an open-access case report into a multi-turn
