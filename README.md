@@ -1,20 +1,18 @@
 # TrustMed-RL
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Images-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Images on Hugging Face"></a><br>
-      <sub>85,581 medical images (7.5 GB), including 49,791 annotated medical images from the 8,453 case reports used for train, val, and test</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Medical%20Retrieval%20Corpus-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Medical Retrieval Corpus on Hugging Face"></a><br>
-      <sub>29.2M-record PubMed + medical Wikipedia retrieval corpus with prebuilt BM25 and FAISS indexes</sub>
-    </td>
-  </tr>
-</table>
-<p align="center">
-  <sub>2,500-case test set, 23,161 SFT pairs and 4,438 RL training cases</sub>
-</p>
+<div align="center">
+
+<a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Images-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Images on Hugging Face"></a>
+
+85,581 medical images (7.5 GB), including 49,791 annotated medical images from the 8,453 case reports used for train, val, and test
+
+<a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Medical%20Retrieval%20Corpus-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Medical Retrieval Corpus on Hugging Face"></a>
+
+29.2M-record PubMed + medical Wikipedia retrieval corpus with prebuilt BM25 and FAISS indexes
+
+<sub>2,500-case test set, 23,161 SFT pairs and 4,438 RL training cases</sub>
+
+</div>
 
 Code and data for TrustMed-RL. The environment turns an open-access case report into a multi-turn
 consultation: the doctor model takes a history from a simulated patient, orders tests, reads the figures
