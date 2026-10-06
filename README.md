@@ -1,14 +1,19 @@
 # TrustMed-RL
 
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Images-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Images on Hugging Face"></a><br>
+      <sub>85,581 medical images (7.5 GB), including 49,791 annotated medical images from the 8,453 case reports used for train, val, and test</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Trustmed--RL%20Medical%20Retrieval%20Corpus-ffd21e?logo=huggingface&logoColor=black" alt="Trustmed-RL Medical Retrieval Corpus on Hugging Face"></a><br>
+      <sub>29.2M-record PubMed + medical Wikipedia retrieval corpus with prebuilt BM25 and FAISS indexes</sub>
+    </td>
+  </tr>
+</table>
 <p align="center">
-  <a href="https://huggingface.co/datasets/Trustmed-RL/TrustMed-RL-Images"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Images-85%2C581%20medical%20images-ffd21e?logo=huggingface&logoColor=black" alt="Images on Hugging Face: 85,581 medical images"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://huggingface.co/datasets/Trustmed-RL/trustmed-medical-retrieval"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Retrieval%20corpus-29.2M%20PubMed%20records%20%2B%20Wikipedia-ffd21e?logo=huggingface&logoColor=black" alt="Retrieval corpus on Hugging Face: 29.2M PubMed records plus medical Wikipedia"></a>
-</p>
-<p align="center">
-  <sub>85,581 medical images (7.5 GB), including 49,791 annotated medical images from the 8,453 case reports used for train, val, and test<br>
-  29.2M-record PubMed + medical Wikipedia retrieval corpus with prebuilt BM25 and FAISS indexes<br>
-  2,500-case frozen test set<br>
+  <sub>2,500-case frozen test set<br>
   23,161 SFT pairs and 4,438 RL training cases</sub>
 </p>
 
