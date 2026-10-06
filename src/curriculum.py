@@ -167,7 +167,7 @@ def init_state(pool_rows: list[dict], sched: dict, seed: int, total_steps: int) 
         if h > len(sched["phases"]):
             overflow += 1
             continue
-        m0 = min(0.95, max(0.05, 1.0 - float(row["curriculum_score"])))
+        m0 = min(0.95, max(0.05, 1.0 - float(row.get("curriculum_score", 0.5))))
         nu = sched["sampler"]["nu"]
         tasks[_uid(row["pmcid"], kind)] = {
             "pmcid": row["pmcid"],
