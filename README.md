@@ -13,8 +13,7 @@
   </tr>
 </table>
 <p align="center">
-  <sub>2,500-case frozen test set<br>
-  23,161 SFT pairs and 4,438 RL training cases</sub>
+  <sub>2,500-case test set, 23,161 SFT pairs and 4,438 RL training cases</sub>
 </p>
 
 Code and data for TrustMed-RL. The environment turns an open-access case report into a multi-turn
